@@ -3,3 +3,5 @@ Raju Nichols
 Melissa Crozier
 Anusha Mishra
 Caleb Wilcox
+
+Our group plans on using Java to implement our parser.
