@@ -4,4 +4,4 @@ Melissa Crozier
 Anusha Mishra
 Caleb Wilcox
 
-Our group plans on using Java to implement our parser.
+Our group plans on using Python to implement our parser.
