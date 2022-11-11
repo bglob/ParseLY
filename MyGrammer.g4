@@ -1,5 +1,6 @@
 grammar MyGrammer;
-expr: left=expr op=('*'|'/') right=expr        # InfixExpr
+expr: 
+    left=expr op=('*'|'/'|'%') right=expr        # InfixExpr
     | left=expr op=('+'|'-') right=expr        # InfixExpr
     | atom=INT                                 # NumberExpr
     | '(' expr ')'                             # ParenExpr 

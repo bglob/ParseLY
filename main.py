@@ -29,6 +29,7 @@ class MyVisitor(MyGrammerVisitor):
         '-': lambda: l - r,
         '*': lambda: l * r,
         '/': lambda: l / r,
+        '%': lambda: l % r,
         }
         return operation.get(op, lambda: None)()
 
