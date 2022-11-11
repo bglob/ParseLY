@@ -1,14 +1,9 @@
 grammar MyGrammer;
-expr: 
-    left=expr op=('*'|'/'|'%') right=expr        # InfixExpr
-    | left=expr op=('+'|'-') right=expr        # InfixExpr
-    | atom=INT                                 # NumberExpr
-    | '(' expr ')'                             # ParenExpr 
-    | atom=HELLO                               # HelloExpr
-    | atom=BYE                                 # ByeExpr
-    ;
+start: (expr NEWLINE)*;
+expr: expr ('*' | '/' | '%') expr
+    | expr ('+' | '-') expr
+    | INT
+    | '(' expr ')';
 
-HELLO: ('hello'|'hi')  ;
-BYE  : ('bye'| 'tata') ;
-INT  : [0-9]+         ;
-WS   : [ \t]+ -> skip ;
+NEWLINE : [\n]+;
+INT     : [0-9]+;
