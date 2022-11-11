@@ -1,6 +1,11 @@
 # ParseLY
 CS 4450 Parser Group Project
 
+## Deliverable #1: TODO
+- Arithmitic operators (+,-.*,/,%) -- Done
+- Assignment operators (=,+=,-=,*=,/=) 
+- Variable definitions
+
 ## Resources:
 [Antlr with Python Tutorial](https://faun.pub/introduction-to-antlr-python-af8a3c603d23)
 
