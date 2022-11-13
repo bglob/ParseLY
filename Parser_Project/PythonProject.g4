@@ -10,6 +10,7 @@ variable: VARNAME;
 arithmatic: ('+' | '-' | '*' | '/' | '%');
 concat: variable (WS* '+' WS*) variable;
 assignment: (variable WS* arithmatic WS*) (expr);
+assignOP: ('=' | '+=' | '-=' | '*=' | '/=');
 
 /*Lexer Rules */
 
