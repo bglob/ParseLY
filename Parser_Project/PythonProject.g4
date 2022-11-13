@@ -3,7 +3,7 @@ grammar PythonProject;
 /*Parser Rules */
 
 //Start program
-start: ((expr) (NEWLINE+))+;
+start: ((expr) (NEWLINE+| EOF))+;
 
 expr: (arithmatic | concat);
 variable: VARNAME;
@@ -20,7 +20,7 @@ fragment DIGIT: [0-9];
 
 NUMBER: DIGIT+;
 DECIMAL: NUMBER '.' NUMBER;
-BOOL: 'Ture' | 'False';
+BOOL: 'True' | 'False';
 LETTER: (LOWER | UPPER);
 //Need to figure out how to do strings.
 
