@@ -3,12 +3,12 @@ grammar PythonProject;
 /*Parser Rules */
 
 //Start program
-start: ((expr) (NEWLINE+| EOF))+;
+start: ((expr) (NEWLINE+ | EOF))+;
 
-expr: (arithmatic | concat);
+expr: (arithmetic | concat);
 variable: VARNAME;
 assignValue: (variable | NUMBER | BOOL | DECIMAL);
-arithmetic: assignValue (WS* arithmatOP WS* assignValue)+; 
+arithmetic: assignValue (WS* arithmetOP WS* assignValue)+;
 arithmetOP: ('+' | '-' | '*' | '/' | '%');
 concat: variable (WS* '+' WS*) variable;
 assignment: (variable WS* assignOP WS*) (expr);
@@ -28,5 +28,5 @@ LETTER: (LOWER | UPPER);
 //Need to figure out how to do strings.
 
 VARNAME: LETTER (LETTER | NUMBER)*;
-WS: []+;
-NEWLINE: ('\r'? '\r' | '\r')+;
+WS: [ ]+;
+NEWLINE: ('\n' | '\r')+;

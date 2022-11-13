@@ -35,12 +35,30 @@ class PythonProjectListener(ParseTreeListener):
         pass
 
 
-    # Enter a parse tree produced by PythonProjectParser#arithmatic.
-    def enterArithmatic(self, ctx:PythonProjectParser.ArithmaticContext):
+    # Enter a parse tree produced by PythonProjectParser#assignValue.
+    def enterAssignValue(self, ctx:PythonProjectParser.AssignValueContext):
         pass
 
-    # Exit a parse tree produced by PythonProjectParser#arithmatic.
-    def exitArithmatic(self, ctx:PythonProjectParser.ArithmaticContext):
+    # Exit a parse tree produced by PythonProjectParser#assignValue.
+    def exitAssignValue(self, ctx:PythonProjectParser.AssignValueContext):
+        pass
+
+
+    # Enter a parse tree produced by PythonProjectParser#arithmetic.
+    def enterArithmetic(self, ctx:PythonProjectParser.ArithmeticContext):
+        pass
+
+    # Exit a parse tree produced by PythonProjectParser#arithmetic.
+    def exitArithmetic(self, ctx:PythonProjectParser.ArithmeticContext):
+        pass
+
+
+    # Enter a parse tree produced by PythonProjectParser#arithmetOP.
+    def enterArithmetOP(self, ctx:PythonProjectParser.ArithmetOPContext):
+        pass
+
+    # Exit a parse tree produced by PythonProjectParser#arithmetOP.
+    def exitArithmetOP(self, ctx:PythonProjectParser.ArithmetOPContext):
         pass
 
 
@@ -59,6 +77,15 @@ class PythonProjectListener(ParseTreeListener):
 
     # Exit a parse tree produced by PythonProjectParser#assignment.
     def exitAssignment(self, ctx:PythonProjectParser.AssignmentContext):
+        pass
+
+
+    # Enter a parse tree produced by PythonProjectParser#assignOP.
+    def enterAssignOP(self, ctx:PythonProjectParser.AssignOPContext):
+        pass
+
+    # Exit a parse tree produced by PythonProjectParser#assignOP.
+    def exitAssignOP(self, ctx:PythonProjectParser.AssignOPContext):
         pass
 
 
