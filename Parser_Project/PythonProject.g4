@@ -7,9 +7,11 @@ start: ((expr) (NEWLINE+| EOF))+;
 
 expr: (arithmatic | concat);
 variable: VARNAME;
-arithmatic: ('+' | '-' | '*' | '/' | '%');
+assignValue: (variable | NUMBER | BOOL | DECIMAL);
+arithmetic: assignValue (WS* arithmatOP WS* assignValue)+; 
+arithmetOP: ('+' | '-' | '*' | '/' | '%');
 concat: variable (WS* '+' WS*) variable;
-assignment: (variable WS* arithmatic WS*) (expr);
+assignment: (variable WS* assignOP WS*) (expr);
 assignOP: ('=' | '+=' | '-=' | '*=' | '/=');
 
 /*Lexer Rules */
