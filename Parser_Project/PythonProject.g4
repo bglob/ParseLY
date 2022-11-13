@@ -25,5 +25,5 @@ LETTER: (LOWER | UPPER);
 //Need to figure out how to do strings.
 
 VARNAME: LETTER (LETTER | NUMBER)*;
-WS: [\t\r\n]+ -> skip;
+WS: []+;
 NEWLINE: ('\r'? '\r' | '\r')+;
