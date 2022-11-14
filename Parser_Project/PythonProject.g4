@@ -7,7 +7,7 @@ start: ((expr) (NEWLINE+ | EOF))+;
 
 expr: (arithmetic | concat | assignment);
 variable: VARNAME;
-assignValue: (variable | NUMBER | BOOL | DECIMAL);
+assignValue: (variable | NUMBER | BOOL | DECIMAL | STRING);
 arithmetic: assignValue (WS* arithmetOP WS* assignValue)*;
 arithmetOP: ('+' | '-' | '*' | '/' | '%');
 concat: variable (WS* '+' WS*) variable;
@@ -20,12 +20,13 @@ assignOP: ('=' | '+=' | '-=' | '*=' | '/=');
 fragment LOWER: [a-z];
 fragment UPPER: [A-Z];
 fragment DIGIT: [0-9];
+fragment NEGATIVE: '-';
 
-NUMBER: DIGIT+;
+NUMBER: NEGATIVE? DIGIT+;
 DECIMAL: NUMBER '.' NUMBER;
 BOOL: 'True' | 'False';
 LETTER: (LOWER | UPPER);
-//Need to figure out how to do strings.
+STRING: ('"'(LETTER | NUMBER | WS)*'"') | ('\''(LETTER | NUMBER | WS)*'\'');
 
 VARNAME: LETTER (LETTER | NUMBER)*;
 WS: [ ]+;
