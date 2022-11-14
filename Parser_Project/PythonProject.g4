@@ -5,13 +5,13 @@ grammar PythonProject;
 //Start program
 start: ((expr) (NEWLINE+ | EOF))+;
 
-expr: (arithmetic | concat);
+expr: (arithmetic | concat | assignment);
 variable: VARNAME;
 assignValue: (variable | NUMBER | BOOL | DECIMAL);
-arithmetic: assignValue (WS* arithmetOP WS* assignValue)+;
+arithmetic: assignValue (WS* arithmetOP WS* assignValue)*;
 arithmetOP: ('+' | '-' | '*' | '/' | '%');
 concat: variable (WS* '+' WS*) variable;
-assignment: (variable WS* assignOP WS*) (expr);
+assignment: (variable WS* assignOP WS*) (expr | NEWLINE);
 assignOP: ('=' | '+=' | '-=' | '*=' | '/=');
 
 /*Lexer Rules */
