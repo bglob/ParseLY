@@ -5,7 +5,7 @@ grammar PythonProject;
 //Start program
 start: ((expr) (NEWLINE+ | EOF))+;
 
-expr: (arithmetic | concat | assignment);
+expr: (arithmetic | concat | assignment | ifStatement);
 variable: VARNAME;
 assignValue: (variable | NUMBER | BOOL | DECIMAL | STRING);
 arithmetic: assignValue (WS* arithmetOP WS* assignValue)*;
@@ -13,6 +13,10 @@ arithmetOP: ('+' | '-' | '*' | '/' | '%');
 concat: variable (WS* '+' WS*) variable;
 assignment: (variable WS* assignOP WS*) (expr | NEWLINE);
 assignOP: ('=' | '+=' | '-=' | '*=' | '/=');
+ifStatement: IF WS+ conditional ':' (NEWLINE TAB expr)+ (NEWLINE TAB? elseStatement)?;
+elseStatement: ELSE ':' (NEWLINE TAB expr)+;
+conditional: NOT? WS* variable (WS* conditionOP WS* assignValue?)* (conditional)?;
+conditionOP: ('<' | '<=' | '>' | '>=' | '==' | '!=' | 'and' | 'or');
 
 /*Lexer Rules */
 
@@ -27,6 +31,10 @@ DECIMAL: NUMBER '.' NUMBER;
 BOOL: 'True' | 'False';
 LETTER: (LOWER | UPPER);
 STRING: ('"'(LETTER | NUMBER | WS)*'"') | ('\''(LETTER | NUMBER | WS)*'\'');
+NOT: 'not';
+TAB: ([\t] | '    ')+;
+IF: 'if';
+ELSE: 'else';
 
 VARNAME: LETTER (LETTER | NUMBER)*;
 WS: [ ]+;

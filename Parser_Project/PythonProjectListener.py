@@ -1,4 +1,4 @@
-# Generated from PythonProject.g4 by ANTLR 4.11.1
+# Generated from .\PythonProject.g4 by ANTLR 4.11.1
 from antlr4 import *
 if __name__ is not None and "." in __name__:
     from .PythonProjectParser import PythonProjectParser
@@ -86,6 +86,42 @@ class PythonProjectListener(ParseTreeListener):
 
     # Exit a parse tree produced by PythonProjectParser#assignOP.
     def exitAssignOP(self, ctx:PythonProjectParser.AssignOPContext):
+        pass
+
+
+    # Enter a parse tree produced by PythonProjectParser#ifStatement.
+    def enterIfStatement(self, ctx:PythonProjectParser.IfStatementContext):
+        pass
+
+    # Exit a parse tree produced by PythonProjectParser#ifStatement.
+    def exitIfStatement(self, ctx:PythonProjectParser.IfStatementContext):
+        pass
+
+
+    # Enter a parse tree produced by PythonProjectParser#elseStatement.
+    def enterElseStatement(self, ctx:PythonProjectParser.ElseStatementContext):
+        pass
+
+    # Exit a parse tree produced by PythonProjectParser#elseStatement.
+    def exitElseStatement(self, ctx:PythonProjectParser.ElseStatementContext):
+        pass
+
+
+    # Enter a parse tree produced by PythonProjectParser#conditional.
+    def enterConditional(self, ctx:PythonProjectParser.ConditionalContext):
+        pass
+
+    # Exit a parse tree produced by PythonProjectParser#conditional.
+    def exitConditional(self, ctx:PythonProjectParser.ConditionalContext):
+        pass
+
+
+    # Enter a parse tree produced by PythonProjectParser#conditionOP.
+    def enterConditionOP(self, ctx:PythonProjectParser.ConditionOPContext):
+        pass
+
+    # Exit a parse tree produced by PythonProjectParser#conditionOP.
+    def exitConditionOP(self, ctx:PythonProjectParser.ConditionOPContext):
         pass
 
 
