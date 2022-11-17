@@ -125,14 +125,5 @@ class PythonProjectListener(ParseTreeListener):
         pass
 
 
-    # Enter a parse tree produced by PythonProjectParser#andor.
-    def enterAndor(self, ctx:PythonProjectParser.AndorContext):
-        pass
-
-    # Exit a parse tree produced by PythonProjectParser#andor.
-    def exitAndor(self, ctx:PythonProjectParser.AndorContext):
-        pass
-
-
 
 del PythonProjectParser

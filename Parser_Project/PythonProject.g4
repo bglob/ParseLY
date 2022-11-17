@@ -13,11 +13,10 @@ arithmetOP: ('+' | '-' | '*' | '/' | '%');
 concat: variable (WS* '+' WS*) variable;
 assignment: (variable WS* assignOP WS*) (expr | NEWLINE);
 assignOP: ('=' | '+=' | '-=' | '*=' | '/=');
-ifStatement: 'if' WS+ conditional ':' (NEWLINE TAB expr)* elseStatement?;
-elseStatement: 'else' ':' (NEWLINE TAB expr)*;
-conditional: NOT? variable (WS* conditionOP WS* assignValue)* (andor conditional)?;
-conditionOP: ('<' | '<=' | '>' | '>=' | '==' | '!=');
-andor: ('and' | 'or');
+ifStatement: 'if' WS+ conditional ':' (NEWLINE TAB expr)+ elseStatement?;
+elseStatement: 'else' ':' (NEWLINE TAB expr)+;
+conditional: NOT? WS* variable (WS* conditionOP WS* assignValue?)* (conditional)?;
+conditionOP: ('<' | '<=' | '>' | '>=' | '==' | '!=' | 'and' | 'or');
 
 /*Lexer Rules */
 
@@ -33,7 +32,7 @@ BOOL: 'True' | 'False';
 LETTER: (LOWER | UPPER);
 STRING: ('"'(LETTER | NUMBER | WS)*'"') | ('\''(LETTER | NUMBER | WS)*'\'');
 NOT: 'not';
-TAB: '    ';
+TAB: ([\t] | '    ')+;
 
 VARNAME: LETTER (LETTER | NUMBER)*;
 WS: [ ]+;
