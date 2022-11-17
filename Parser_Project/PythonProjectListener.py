@@ -89,5 +89,32 @@ class PythonProjectListener(ParseTreeListener):
         pass
 
 
+    # Enter a parse tree produced by PythonProjectParser#conditional.
+    def enterConditional(self, ctx:PythonProjectParser.ConditionalContext):
+        pass
+
+    # Exit a parse tree produced by PythonProjectParser#conditional.
+    def exitConditional(self, ctx:PythonProjectParser.ConditionalContext):
+        pass
+
+
+    # Enter a parse tree produced by PythonProjectParser#conditionOP.
+    def enterConditionOP(self, ctx:PythonProjectParser.ConditionOPContext):
+        pass
+
+    # Exit a parse tree produced by PythonProjectParser#conditionOP.
+    def exitConditionOP(self, ctx:PythonProjectParser.ConditionOPContext):
+        pass
+
+
+    # Enter a parse tree produced by PythonProjectParser#andor.
+    def enterAndor(self, ctx:PythonProjectParser.AndorContext):
+        pass
+
+    # Exit a parse tree produced by PythonProjectParser#andor.
+    def exitAndor(self, ctx:PythonProjectParser.AndorContext):
+        pass
+
+
 
 del PythonProjectParser

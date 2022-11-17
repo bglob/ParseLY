@@ -13,6 +13,9 @@ arithmetOP: ('+' | '-' | '*' | '/' | '%');
 concat: variable (WS* '+' WS*) variable;
 assignment: (variable WS* assignOP WS*) (expr | NEWLINE);
 assignOP: ('=' | '+=' | '-=' | '*=' | '/=');
+conditional: variable WS* conditionOP WS* assignValue;
+conditionOP: ('<' | '<=' | '>' | '>=' | '==' | '!=' | 'not');
+andor: ('and' | 'or');
 
 /*Lexer Rules */
 
