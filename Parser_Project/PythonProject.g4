@@ -13,7 +13,7 @@ arithmetOP: ('+' | '-' | '*' | '/' | '%');
 concat: variable (WS* '+' WS*) variable;
 assignment: (variable WS* assignOP WS*) (expr | NEWLINE);
 assignOP: ('=' | '+=' | '-=' | '*=' | '/=');
-ifStatement: 'if' WS+ conditional ':' (NEWLINE TAB expr)+ elseStatement?;
+ifStatement: 'if' WS+ conditional ':' (NEWLINE TAB expr)+ (NEWLINE TAB? elseStatement)?;
 elseStatement: 'else' ':' (NEWLINE TAB expr)+;
 conditional: NOT? WS* variable (WS* conditionOP WS* assignValue?)* (conditional)?;
 conditionOP: ('<' | '<=' | '>' | '>=' | '==' | '!=' | 'and' | 'or');
