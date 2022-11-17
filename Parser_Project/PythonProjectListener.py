@@ -89,6 +89,24 @@ class PythonProjectListener(ParseTreeListener):
         pass
 
 
+    # Enter a parse tree produced by PythonProjectParser#ifStatement.
+    def enterIfStatement(self, ctx:PythonProjectParser.IfStatementContext):
+        pass
+
+    # Exit a parse tree produced by PythonProjectParser#ifStatement.
+    def exitIfStatement(self, ctx:PythonProjectParser.IfStatementContext):
+        pass
+
+
+    # Enter a parse tree produced by PythonProjectParser#elseStatement.
+    def enterElseStatement(self, ctx:PythonProjectParser.ElseStatementContext):
+        pass
+
+    # Exit a parse tree produced by PythonProjectParser#elseStatement.
+    def exitElseStatement(self, ctx:PythonProjectParser.ElseStatementContext):
+        pass
+
+
     # Enter a parse tree produced by PythonProjectParser#conditional.
     def enterConditional(self, ctx:PythonProjectParser.ConditionalContext):
         pass

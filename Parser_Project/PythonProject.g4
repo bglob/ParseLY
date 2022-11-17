@@ -5,7 +5,7 @@ grammar PythonProject;
 //Start program
 start: ((expr) (NEWLINE+ | EOF))+;
 
-expr: (arithmetic | concat | assignment | if);
+expr: (arithmetic | concat | assignment | ifStatement);
 variable: VARNAME;
 assignValue: (variable | NUMBER | BOOL | DECIMAL | STRING);
 arithmetic: assignValue (WS* arithmetOP WS* assignValue)*;
@@ -13,10 +13,10 @@ arithmetOP: ('+' | '-' | '*' | '/' | '%');
 concat: variable (WS* '+' WS*) variable;
 assignment: (variable WS* assignOP WS*) (expr | NEWLINE);
 assignOP: ('=' | '+=' | '-=' | '*=' | '/=');
-if: 'if' WS+ conditional ':' NEWLINE '\t' expr* else? 
-else: 'else' '\t' expr*;
-conditional: variable (WS* conditionOP WS* assignValue)* (andor conditional)?;
-conditionOP: ('<' | '<=' | '>' | '>=' | '==' | '!=' | 'not');
+ifStatement: 'if' WS+ conditional ':' (NEWLINE TAB expr)* elseStatement?;
+elseStatement: 'else' ':' (NEWLINE TAB expr)*;
+conditional: NOT? variable (WS* conditionOP WS* assignValue)* (andor conditional)?;
+conditionOP: ('<' | '<=' | '>' | '>=' | '==' | '!=');
 andor: ('and' | 'or');
 
 /*Lexer Rules */
@@ -32,6 +32,8 @@ DECIMAL: NUMBER '.' NUMBER;
 BOOL: 'True' | 'False';
 LETTER: (LOWER | UPPER);
 STRING: ('"'(LETTER | NUMBER | WS)*'"') | ('\''(LETTER | NUMBER | WS)*'\'');
+NOT: 'not';
+TAB: '    ';
 
 VARNAME: LETTER (LETTER | NUMBER)*;
 WS: [ ]+;
