@@ -19,7 +19,7 @@ conditional: NOT? WS* variable (WS* conditionOP WS* assignValue?)* (conditional)
 conditionOP: ('<' | '<=' | '>' | '>=' | '==' | '!=' | 'and' | 'or');
 
 singleLineComment: '#' (WS | LETTER | NUMBER | arithmetOP | assignOP | conditionalOP)* NEWLINE;
-multiLineComment: '"""' (WS | LETTER | NUMBER | arithmetOP | assignOP | conditionalOP | NEWLINE)* '"""'
+multiLineComment: '"""' (WS | LETTER | NUMBER | arithmetOP | assignOP | conditionalOP | NEWLINE)* '"""';
 
 /*Lexer Rules */
 
