@@ -5,7 +5,7 @@ grammar PythonProject;
 //Start program
 start: ((expr) (NEWLINE+ | EOF))+;
 
-expr: (arithmetic | concat | assignment | ifStatement);
+expr: (arithmetic | concat | assignment | ifStatement | singleLineComment | multiLineComment);
 variable: VARNAME;
 assignValue: (variable | NUMBER | BOOL | DECIMAL | STRING);
 arithmetic: assignValue (WS* arithmetOP WS* assignValue)*;
@@ -17,6 +17,9 @@ ifStatement: IF WS+ conditional ':' (NEWLINE TAB expr)+ (NEWLINE TAB? elseStatem
 elseStatement: ELSE ':' (NEWLINE TAB expr)+;
 conditional: NOT? WS* variable (WS* conditionOP WS* assignValue?)* (conditional)?;
 conditionOP: ('<' | '<=' | '>' | '>=' | '==' | '!=' | 'and' | 'or');
+
+singleLineComment: '#' (WS | LETTER | NUMBER | arithmetOP | assignOP | conditionalOP)* NEWLINE;
+multiLineComment: '"""' (WS | LETTER | NUMBER | arithmetOP | assignOP | conditionalOP | NEWLINE)* '"""'
 
 /*Lexer Rules */
 
