@@ -18,8 +18,8 @@ elseStatement: ELSE ':' (NEWLINE TAB expr)+;
 conditional: NOT? WS* variable (WS* conditionOP WS* assignValue?)* (conditional)?;
 conditionOP: ('<' | '<=' | '>' | '>=' | '==' | '!=' | 'and' | 'or');
 
-singleLineComment: '#' (WS | LETTER | NUMBER | arithmetOP | assignOP | conditionalOP)* NEWLINE;
-multiLineComment: '"""' (WS | LETTER | NUMBER | arithmetOP | assignOP | conditionalOP | NEWLINE)* '"""';
+singleLineComment: '#' (WS | LETTER | NUMBER | arithmetOP | assignOP | conditionOP)* NEWLINE;
+multiLineComment: '"""' (WS | LETTER | NUMBER | arithmetOP | assignOP | conditionOP | NEWLINE)* '"""';
 
 /*Lexer Rules */
 
