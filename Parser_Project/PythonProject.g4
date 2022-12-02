@@ -5,7 +5,7 @@ grammar PythonProject;
 //Start program
 start: ((expr) (NEWLINE+ | EOF))+;
 
-expr: (arithmetic | concat | assignment | ifStatement | singleLineComment | multiLineComment);
+expr: (arithmetic | concat | assignment | ifStatement | comment);
 variable: VARNAME;
 assignValue: (variable | NUMBER | BOOL | DECIMAL | STRING);
 arithmetic: assignValue (WS* arithmetOP WS* assignValue)*;
@@ -18,9 +18,9 @@ elseStatement: ELSE ':' (NEWLINE TAB expr)+;
 conditional: NOT? WS* variable (WS* conditionOP WS* assignValue?)* (conditional)?;
 conditionOP: ('<' | '<=' | '>' | '>=' | '==' | '!=' | 'and' | 'or');
 
-singleLineComment: '#' (WS | LETTER | NUMBER | arithmetOP | assignOP | conditionOP)* NEWLINE;
-multiLineComment: '"""' (WS | LETTER | NUMBER | arithmetOP | assignOP | conditionOP | NEWLINE)* '"""';
-
+singleLineComment: '#' (WS | LETTER | NUMBER  | IF | ELSE | arithmetOP | assignOP | conditionOP)*;
+multiLineComment: '"""' (WS | LETTER | NUMBER | IF | ELSE | arithmetOP | assignOP | conditionOP | NEWLINE)* '"""';
+comment: singleLineComment | multiLineComment;
 /*Lexer Rules */
 
 //Added stuff that may/ may not need.
@@ -32,7 +32,7 @@ fragment NEGATIVE: '-';
 NUMBER: NEGATIVE? DIGIT+;
 DECIMAL: NUMBER '.' NUMBER;
 BOOL: 'True' | 'False';
-LETTER: (LOWER | UPPER);
+LETTER: (LOWER | UPPER)+;
 STRING: ('"'(LETTER | NUMBER | WS)*'"') | ('\''(LETTER | NUMBER | WS)*'\'');
 NOT: 'not';
 TAB: ([\t] | '    ')+;

@@ -1,4 +1,4 @@
-# Generated from PythonProject.g4 by ANTLR 4.11.1
+# Generated from .\PythonProject.g4 by ANTLR 4.11.1
 from antlr4 import *
 if __name__ is not None and "." in __name__:
     from .PythonProjectParser import PythonProjectParser
@@ -140,6 +140,15 @@ class PythonProjectListener(ParseTreeListener):
 
     # Exit a parse tree produced by PythonProjectParser#multiLineComment.
     def exitMultiLineComment(self, ctx:PythonProjectParser.MultiLineCommentContext):
+        pass
+
+
+    # Enter a parse tree produced by PythonProjectParser#comment.
+    def enterComment(self, ctx:PythonProjectParser.CommentContext):
+        pass
+
+    # Exit a parse tree produced by PythonProjectParser#comment.
+    def exitComment(self, ctx:PythonProjectParser.CommentContext):
         pass
 
 
