@@ -13,3 +13,11 @@ This is another one
 #if else 
 
 # qudhqwdnqwn dqhwd 121bool 
+
+while test2<3:
+    test2+=1
+
+while test3>=0:
+    test3-=1
+else:
+    "its done"
