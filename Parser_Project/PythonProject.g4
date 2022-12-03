@@ -15,8 +15,8 @@ assignment: (variable WS* assignOP WS*) (expr | NEWLINE);
 assignOP: ('=' | '+=' | '-=' | '*=' | '/=');
 ifStatement: IF WS+ conditional ':' (NEWLINE TAB expr)+ (NEWLINE TAB? elseStatement)?;
 elseStatement: ELSE ':' (NEWLINE TAB expr)+;
-whileStatement: 'while' WS+ conditional ':' (NEWLINE TAB expr)+ (NEWLINE elseStatement)?;
-forStatement: 'for' WS+ variable WS+ 'in' WS+ (variable | STRING) ':' (NEWLINE TAB expr)+ (NEWLINE elseStatement)?;
+whileStatement: WHILE WS+ conditional ':' (NEWLINE TAB expr)+ (NEWLINE elseStatement)?;
+forStatement: FOR WS+ variable WS+ 'in' WS+ (variable | STRING) ':' (NEWLINE TAB expr)+ (NEWLINE elseStatement)?;
 conditional: NOT? WS* variable (WS* conditionOP WS* assignValue?)* (conditional)?;
 conditionOP: ('<' | '<=' | '>' | '>=' | '==' | '!=' | 'and' | 'or');
 
@@ -40,6 +40,8 @@ NOT: 'not';
 TAB: ([\t] | '    ')+;
 IF: 'if';
 ELSE: 'else';
+WHILE: 'while';
+FOR: 'for';
 
 VARNAME: LETTER (LETTER | NUMBER)*;
 WS: [ ]+;

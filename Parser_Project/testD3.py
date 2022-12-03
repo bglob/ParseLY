@@ -20,4 +20,4 @@ while test2<3:
 while test3>=0:
     test3-=1
 else:
-    "its done"
+    "test3 is less than 0"
