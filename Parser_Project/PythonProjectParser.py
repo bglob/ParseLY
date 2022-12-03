@@ -121,7 +121,7 @@ class PythonProjectParser ( Parser ):
                       "<INVALID>", "<INVALID>", "<INVALID>", "<INVALID>", 
                       "<INVALID>", "<INVALID>", "<INVALID>", "<INVALID>", 
                       "<INVALID>", "<INVALID>", "<INVALID>", "<INVALID>", 
-                      "<INVALID>", "VARNAME", "SingleLineComment", "MultiLineComment", 
+                      "<INVALID>", "VARNAME", "SINGLELINECOMMENT", "MULTILINECOMMENT", 
                       "NUMBER", "DECIMAL", "BOOL", "LETTER", "STRING", "NOT", 
                       "TAB", "WS", "NEWLINE" ]
 
@@ -173,8 +173,8 @@ class PythonProjectParser ( Parser ):
     T__22=23
     T__23=24
     VARNAME=25
-    SingleLineComment=26
-    MultiLineComment=27
+    SINGLELINECOMMENT=26
+    MULTILINECOMMENT=27
     NUMBER=28
     DECIMAL=29
     BOOL=30
@@ -1504,11 +1504,11 @@ class PythonProjectParser ( Parser ):
             super().__init__(parent, invokingState)
             self.parser = parser
 
-        def SingleLineComment(self):
-            return self.getToken(PythonProjectParser.SingleLineComment, 0)
+        def SINGLELINECOMMENT(self):
+            return self.getToken(PythonProjectParser.SINGLELINECOMMENT, 0)
 
-        def MultiLineComment(self):
-            return self.getToken(PythonProjectParser.MultiLineComment, 0)
+        def MULTILINECOMMENT(self):
+            return self.getToken(PythonProjectParser.MULTILINECOMMENT, 0)
 
         def getRuleIndex(self):
             return PythonProjectParser.RULE_comment

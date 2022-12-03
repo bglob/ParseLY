@@ -134,8 +134,8 @@ class PythonProjectLexer(Lexer):
     T__22 = 23
     T__23 = 24
     VARNAME = 25
-    SingleLineComment = 26
-    MultiLineComment = 27
+    SINGLELINECOMMENT = 26
+    MULTILINECOMMENT = 27
     NUMBER = 28
     DECIMAL = 29
     BOOL = 30
@@ -157,14 +157,14 @@ class PythonProjectLexer(Lexer):
             "'not'" ]
 
     symbolicNames = [ "<INVALID>",
-            "VARNAME", "SingleLineComment", "MultiLineComment", "NUMBER", 
+            "VARNAME", "SINGLELINECOMMENT", "MULTILINECOMMENT", "NUMBER", 
             "DECIMAL", "BOOL", "LETTER", "STRING", "NOT", "TAB", "WS", "NEWLINE" ]
 
     ruleNames = [ "T__0", "T__1", "T__2", "T__3", "T__4", "T__5", "T__6", 
                   "T__7", "T__8", "T__9", "T__10", "T__11", "T__12", "T__13", 
                   "T__14", "T__15", "T__16", "T__17", "T__18", "T__19", 
                   "T__20", "T__21", "T__22", "T__23", "LOWER", "UPPER", 
-                  "DIGIT", "NEGATIVE", "VARNAME", "SingleLineComment", "MultiLineComment", 
+                  "DIGIT", "NEGATIVE", "VARNAME", "SINGLELINECOMMENT", "MULTILINECOMMENT", 
                   "NUMBER", "DECIMAL", "BOOL", "LETTER", "STRING", "NOT", 
                   "TAB", "WS", "NEWLINE" ]
 

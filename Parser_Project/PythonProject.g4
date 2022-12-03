@@ -22,7 +22,7 @@ conditionOP: ('<' | '<=' | '>' | '>=' | '==' | '!=' | 'and' | 'or');
 
 
 
-comment: SingleLineComment | MultiLineComment;
+comment: SINGLELINECOMMENT | MULTILINECOMMENT;
 /*Lexer Rules */
 
 //Added stuff that may/ may not need.
@@ -32,8 +32,8 @@ fragment DIGIT: [0-9];
 fragment NEGATIVE: '-';
 
 VARNAME: LETTER (LETTER | NUMBER)*;
-SingleLineComment: '#' ~[\r\n]*;
-MultiLineComment: '"""' ~[\\]* '"""';
+SINGLELINECOMMENT: '#' ~[\r\n]*;
+MULTILINECOMMENT: '"""' ~[\\]* '"""';
 NUMBER: NEGATIVE? DIGIT+;
 DECIMAL: NUMBER '.' NUMBER;
 BOOL: 'True' | 'False';

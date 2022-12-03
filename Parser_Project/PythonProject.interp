@@ -64,8 +64,8 @@ null
 null
 null
 VARNAME
-SingleLineComment
-MultiLineComment
+SINGLELINECOMMENT
+MULTILINECOMMENT
 NUMBER
 DECIMAL
 BOOL
