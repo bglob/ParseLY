@@ -18,6 +18,10 @@ while test2<3:
     test2+=1
 
 while test3>=0:
-    test3-=1   
-else:
-    "test3 is less than 0"
+    test3-=1
+
+for xxx in test4:
+    result+=xxx
+
+for yyy in "banana":
+    test5=yyy

@@ -10,104 +10,92 @@ else:
 
 def serializedATN():
     return [
-        4,1,38,267,2,0,7,0,2,1,7,1,2,2,7,2,2,3,7,3,2,4,7,4,2,5,7,5,2,6,7,
+        4,1,36,237,2,0,7,0,2,1,7,1,2,2,7,2,2,3,7,3,2,4,7,4,2,5,7,5,2,6,7,
         6,2,7,7,7,2,8,7,8,2,9,7,9,2,10,7,10,2,11,7,11,2,12,7,12,2,13,7,13,
-        2,14,7,14,2,15,7,15,2,16,7,16,2,17,7,17,1,0,1,0,4,0,39,8,0,11,0,
-        12,0,40,1,0,3,0,44,8,0,4,0,46,8,0,11,0,12,0,47,1,1,1,1,1,1,1,1,1,
-        1,1,1,1,1,3,1,57,8,1,1,2,1,2,1,3,1,3,1,3,1,3,1,3,3,3,66,8,3,1,4,
-        1,4,5,4,70,8,4,10,4,12,4,73,9,4,1,4,1,4,5,4,77,8,4,10,4,12,4,80,
-        9,4,1,4,1,4,5,4,84,8,4,10,4,12,4,87,9,4,1,5,1,5,1,6,1,6,5,6,93,8,
-        6,10,6,12,6,96,9,6,1,6,1,6,5,6,100,8,6,10,6,12,6,103,9,6,1,6,1,6,
-        1,7,1,7,5,7,109,8,7,10,7,12,7,112,9,7,1,7,1,7,5,7,116,8,7,10,7,12,
-        7,119,9,7,1,7,1,7,3,7,123,8,7,1,8,1,8,1,9,1,9,4,9,129,8,9,11,9,12,
-        9,130,1,9,1,9,1,9,1,9,1,9,4,9,138,8,9,11,9,12,9,139,1,9,1,9,3,9,
-        144,8,9,1,9,3,9,147,8,9,1,10,1,10,1,10,1,10,1,10,4,10,154,8,10,11,
-        10,12,10,155,1,11,1,11,4,11,160,8,11,11,11,12,11,161,1,11,1,11,1,
-        11,1,11,1,11,4,11,169,8,11,11,11,12,11,170,1,11,1,11,3,11,175,8,
-        11,1,12,1,12,4,12,179,8,12,11,12,12,12,180,1,12,1,12,4,12,185,8,
-        12,11,12,12,12,186,1,12,1,12,4,12,191,8,12,11,12,12,12,192,1,12,
-        1,12,3,12,197,8,12,1,12,1,12,1,12,1,12,4,12,203,8,12,11,12,12,12,
-        204,1,12,1,12,3,12,209,8,12,1,13,3,13,212,8,13,1,13,5,13,215,8,13,
-        10,13,12,13,218,9,13,1,13,1,13,5,13,222,8,13,10,13,12,13,225,9,13,
-        1,13,1,13,5,13,229,8,13,10,13,12,13,232,9,13,1,13,3,13,235,8,13,
-        5,13,237,8,13,10,13,12,13,240,9,13,1,13,3,13,243,8,13,1,14,1,14,
-        1,15,1,15,5,15,249,8,15,10,15,12,15,252,9,15,1,16,1,16,5,16,256,
-        8,16,10,16,12,16,259,9,16,1,16,1,16,1,17,1,17,3,17,265,8,17,1,17,
-        0,0,18,0,2,4,6,8,10,12,14,16,18,20,22,24,26,28,30,32,34,0,5,1,0,
-        1,5,1,0,6,10,1,0,15,22,2,0,28,28,30,30,3,0,28,28,30,30,38,38,293,
-        0,45,1,0,0,0,2,56,1,0,0,0,4,58,1,0,0,0,6,65,1,0,0,0,8,67,1,0,0,0,
-        10,88,1,0,0,0,12,90,1,0,0,0,14,106,1,0,0,0,16,124,1,0,0,0,18,126,
-        1,0,0,0,20,148,1,0,0,0,22,157,1,0,0,0,24,176,1,0,0,0,26,211,1,0,
-        0,0,28,244,1,0,0,0,30,246,1,0,0,0,32,253,1,0,0,0,34,264,1,0,0,0,
-        36,43,3,2,1,0,37,39,5,38,0,0,38,37,1,0,0,0,39,40,1,0,0,0,40,38,1,
-        0,0,0,40,41,1,0,0,0,41,44,1,0,0,0,42,44,5,0,0,1,43,38,1,0,0,0,43,
-        42,1,0,0,0,44,46,1,0,0,0,45,36,1,0,0,0,46,47,1,0,0,0,47,45,1,0,0,
-        0,47,48,1,0,0,0,48,1,1,0,0,0,49,57,3,8,4,0,50,57,3,12,6,0,51,57,
-        3,14,7,0,52,57,3,18,9,0,53,57,3,22,11,0,54,57,3,24,12,0,55,57,3,
-        34,17,0,56,49,1,0,0,0,56,50,1,0,0,0,56,51,1,0,0,0,56,52,1,0,0,0,
-        56,53,1,0,0,0,56,54,1,0,0,0,56,55,1,0,0,0,57,3,1,0,0,0,58,59,5,36,
-        0,0,59,5,1,0,0,0,60,66,3,4,2,0,61,66,5,25,0,0,62,66,5,27,0,0,63,
-        66,5,26,0,0,64,66,5,31,0,0,65,60,1,0,0,0,65,61,1,0,0,0,65,62,1,0,
-        0,0,65,63,1,0,0,0,65,64,1,0,0,0,66,7,1,0,0,0,67,85,3,6,3,0,68,70,
-        5,37,0,0,69,68,1,0,0,0,70,73,1,0,0,0,71,69,1,0,0,0,71,72,1,0,0,0,
-        72,74,1,0,0,0,73,71,1,0,0,0,74,78,3,10,5,0,75,77,5,37,0,0,76,75,
-        1,0,0,0,77,80,1,0,0,0,78,76,1,0,0,0,78,79,1,0,0,0,79,81,1,0,0,0,
-        80,78,1,0,0,0,81,82,3,6,3,0,82,84,1,0,0,0,83,71,1,0,0,0,84,87,1,
-        0,0,0,85,83,1,0,0,0,85,86,1,0,0,0,86,9,1,0,0,0,87,85,1,0,0,0,88,
-        89,7,0,0,0,89,11,1,0,0,0,90,94,3,4,2,0,91,93,5,37,0,0,92,91,1,0,
-        0,0,93,96,1,0,0,0,94,92,1,0,0,0,94,95,1,0,0,0,95,97,1,0,0,0,96,94,
-        1,0,0,0,97,101,5,1,0,0,98,100,5,37,0,0,99,98,1,0,0,0,100,103,1,0,
-        0,0,101,99,1,0,0,0,101,102,1,0,0,0,102,104,1,0,0,0,103,101,1,0,0,
-        0,104,105,3,4,2,0,105,13,1,0,0,0,106,110,3,4,2,0,107,109,5,37,0,
-        0,108,107,1,0,0,0,109,112,1,0,0,0,110,108,1,0,0,0,110,111,1,0,0,
-        0,111,113,1,0,0,0,112,110,1,0,0,0,113,117,3,16,8,0,114,116,5,37,
-        0,0,115,114,1,0,0,0,116,119,1,0,0,0,117,115,1,0,0,0,117,118,1,0,
-        0,0,118,122,1,0,0,0,119,117,1,0,0,0,120,123,3,2,1,0,121,123,5,38,
-        0,0,122,120,1,0,0,0,122,121,1,0,0,0,123,15,1,0,0,0,124,125,7,1,0,
-        0,125,17,1,0,0,0,126,128,5,34,0,0,127,129,5,37,0,0,128,127,1,0,0,
-        0,129,130,1,0,0,0,130,128,1,0,0,0,130,131,1,0,0,0,131,132,1,0,0,
-        0,132,133,3,26,13,0,133,137,5,11,0,0,134,135,5,38,0,0,135,136,5,
-        33,0,0,136,138,3,2,1,0,137,134,1,0,0,0,138,139,1,0,0,0,139,137,1,
-        0,0,0,139,140,1,0,0,0,140,146,1,0,0,0,141,143,5,38,0,0,142,144,5,
-        33,0,0,143,142,1,0,0,0,143,144,1,0,0,0,144,145,1,0,0,0,145,147,3,
-        20,10,0,146,141,1,0,0,0,146,147,1,0,0,0,147,19,1,0,0,0,148,149,5,
-        35,0,0,149,153,5,11,0,0,150,151,5,38,0,0,151,152,5,33,0,0,152,154,
-        3,2,1,0,153,150,1,0,0,0,154,155,1,0,0,0,155,153,1,0,0,0,155,156,
-        1,0,0,0,156,21,1,0,0,0,157,159,5,12,0,0,158,160,5,37,0,0,159,158,
-        1,0,0,0,160,161,1,0,0,0,161,159,1,0,0,0,161,162,1,0,0,0,162,163,
-        1,0,0,0,163,164,3,26,13,0,164,168,5,11,0,0,165,166,5,38,0,0,166,
-        167,5,33,0,0,167,169,3,2,1,0,168,165,1,0,0,0,169,170,1,0,0,0,170,
-        168,1,0,0,0,170,171,1,0,0,0,171,174,1,0,0,0,172,173,5,38,0,0,173,
-        175,3,20,10,0,174,172,1,0,0,0,174,175,1,0,0,0,175,23,1,0,0,0,176,
-        178,5,13,0,0,177,179,5,37,0,0,178,177,1,0,0,0,179,180,1,0,0,0,180,
-        178,1,0,0,0,180,181,1,0,0,0,181,182,1,0,0,0,182,184,3,4,2,0,183,
-        185,5,37,0,0,184,183,1,0,0,0,185,186,1,0,0,0,186,184,1,0,0,0,186,
-        187,1,0,0,0,187,188,1,0,0,0,188,190,5,14,0,0,189,191,5,37,0,0,190,
-        189,1,0,0,0,191,192,1,0,0,0,192,190,1,0,0,0,192,193,1,0,0,0,193,
-        196,1,0,0,0,194,197,3,4,2,0,195,197,5,31,0,0,196,194,1,0,0,0,196,
-        195,1,0,0,0,197,198,1,0,0,0,198,202,5,11,0,0,199,200,5,38,0,0,200,
-        201,5,33,0,0,201,203,3,2,1,0,202,199,1,0,0,0,203,204,1,0,0,0,204,
-        202,1,0,0,0,204,205,1,0,0,0,205,208,1,0,0,0,206,207,5,38,0,0,207,
-        209,3,20,10,0,208,206,1,0,0,0,208,209,1,0,0,0,209,25,1,0,0,0,210,
-        212,5,32,0,0,211,210,1,0,0,0,211,212,1,0,0,0,212,216,1,0,0,0,213,
-        215,5,37,0,0,214,213,1,0,0,0,215,218,1,0,0,0,216,214,1,0,0,0,216,
-        217,1,0,0,0,217,219,1,0,0,0,218,216,1,0,0,0,219,238,3,4,2,0,220,
-        222,5,37,0,0,221,220,1,0,0,0,222,225,1,0,0,0,223,221,1,0,0,0,223,
-        224,1,0,0,0,224,226,1,0,0,0,225,223,1,0,0,0,226,230,3,28,14,0,227,
-        229,5,37,0,0,228,227,1,0,0,0,229,232,1,0,0,0,230,228,1,0,0,0,230,
-        231,1,0,0,0,231,234,1,0,0,0,232,230,1,0,0,0,233,235,3,6,3,0,234,
-        233,1,0,0,0,234,235,1,0,0,0,235,237,1,0,0,0,236,223,1,0,0,0,237,
-        240,1,0,0,0,238,236,1,0,0,0,238,239,1,0,0,0,239,242,1,0,0,0,240,
-        238,1,0,0,0,241,243,3,26,13,0,242,241,1,0,0,0,242,243,1,0,0,0,243,
-        27,1,0,0,0,244,245,7,2,0,0,245,29,1,0,0,0,246,250,5,23,0,0,247,249,
-        7,3,0,0,248,247,1,0,0,0,249,252,1,0,0,0,250,248,1,0,0,0,250,251,
-        1,0,0,0,251,31,1,0,0,0,252,250,1,0,0,0,253,257,5,24,0,0,254,256,
-        7,4,0,0,255,254,1,0,0,0,256,259,1,0,0,0,257,255,1,0,0,0,257,258,
-        1,0,0,0,258,260,1,0,0,0,259,257,1,0,0,0,260,261,5,24,0,0,261,33,
-        1,0,0,0,262,265,3,30,15,0,263,265,3,32,16,0,264,262,1,0,0,0,264,
-        263,1,0,0,0,265,35,1,0,0,0,37,40,43,47,56,65,71,78,85,94,101,110,
-        117,122,130,139,143,146,155,161,170,174,180,186,192,196,204,208,
-        211,216,223,230,234,238,242,250,257,264
+        2,14,7,14,2,15,7,15,1,0,1,0,4,0,35,8,0,11,0,12,0,36,1,0,3,0,40,8,
+        0,4,0,42,8,0,11,0,12,0,43,1,1,1,1,1,1,1,1,1,1,1,1,1,1,3,1,53,8,1,
+        1,2,1,2,1,3,1,3,1,3,1,3,1,3,3,3,62,8,3,1,4,1,4,5,4,66,8,4,10,4,12,
+        4,69,9,4,1,4,1,4,5,4,73,8,4,10,4,12,4,76,9,4,1,4,1,4,5,4,80,8,4,
+        10,4,12,4,83,9,4,1,5,1,5,1,6,1,6,5,6,89,8,6,10,6,12,6,92,9,6,1,6,
+        1,6,5,6,96,8,6,10,6,12,6,99,9,6,1,6,1,6,1,7,1,7,5,7,105,8,7,10,7,
+        12,7,108,9,7,1,7,1,7,5,7,112,8,7,10,7,12,7,115,9,7,1,7,1,7,3,7,119,
+        8,7,1,8,1,8,1,9,1,9,4,9,125,8,9,11,9,12,9,126,1,9,1,9,1,9,1,9,1,
+        9,4,9,134,8,9,11,9,12,9,135,1,9,1,9,3,9,140,8,9,1,9,3,9,143,8,9,
+        1,10,1,10,1,10,1,10,1,10,4,10,150,8,10,11,10,12,10,151,1,11,1,11,
+        4,11,156,8,11,11,11,12,11,157,1,11,1,11,1,11,1,11,1,11,4,11,165,
+        8,11,11,11,12,11,166,1,12,1,12,4,12,171,8,12,11,12,12,12,172,1,12,
+        1,12,4,12,177,8,12,11,12,12,12,178,1,12,1,12,4,12,183,8,12,11,12,
+        12,12,184,1,12,1,12,3,12,189,8,12,1,12,1,12,1,12,1,12,4,12,195,8,
+        12,11,12,12,12,196,1,13,3,13,200,8,13,1,13,5,13,203,8,13,10,13,12,
+        13,206,9,13,1,13,1,13,5,13,210,8,13,10,13,12,13,213,9,13,1,13,1,
+        13,5,13,217,8,13,10,13,12,13,220,9,13,1,13,3,13,223,8,13,5,13,225,
+        8,13,10,13,12,13,228,9,13,1,13,3,13,231,8,13,1,14,1,14,1,15,1,15,
+        1,15,0,0,16,0,2,4,6,8,10,12,14,16,18,20,22,24,26,28,30,0,4,1,0,1,
+        5,1,0,6,10,1,0,17,24,1,0,26,27,260,0,41,1,0,0,0,2,52,1,0,0,0,4,54,
+        1,0,0,0,6,61,1,0,0,0,8,63,1,0,0,0,10,84,1,0,0,0,12,86,1,0,0,0,14,
+        102,1,0,0,0,16,120,1,0,0,0,18,122,1,0,0,0,20,144,1,0,0,0,22,153,
+        1,0,0,0,24,168,1,0,0,0,26,199,1,0,0,0,28,232,1,0,0,0,30,234,1,0,
+        0,0,32,39,3,2,1,0,33,35,5,36,0,0,34,33,1,0,0,0,35,36,1,0,0,0,36,
+        34,1,0,0,0,36,37,1,0,0,0,37,40,1,0,0,0,38,40,5,0,0,1,39,34,1,0,0,
+        0,39,38,1,0,0,0,40,42,1,0,0,0,41,32,1,0,0,0,42,43,1,0,0,0,43,41,
+        1,0,0,0,43,44,1,0,0,0,44,1,1,0,0,0,45,53,3,8,4,0,46,53,3,12,6,0,
+        47,53,3,14,7,0,48,53,3,18,9,0,49,53,3,22,11,0,50,53,3,24,12,0,51,
+        53,3,30,15,0,52,45,1,0,0,0,52,46,1,0,0,0,52,47,1,0,0,0,52,48,1,0,
+        0,0,52,49,1,0,0,0,52,50,1,0,0,0,52,51,1,0,0,0,53,3,1,0,0,0,54,55,
+        5,25,0,0,55,5,1,0,0,0,56,62,3,4,2,0,57,62,5,28,0,0,58,62,5,30,0,
+        0,59,62,5,29,0,0,60,62,5,32,0,0,61,56,1,0,0,0,61,57,1,0,0,0,61,58,
+        1,0,0,0,61,59,1,0,0,0,61,60,1,0,0,0,62,7,1,0,0,0,63,81,3,6,3,0,64,
+        66,5,35,0,0,65,64,1,0,0,0,66,69,1,0,0,0,67,65,1,0,0,0,67,68,1,0,
+        0,0,68,70,1,0,0,0,69,67,1,0,0,0,70,74,3,10,5,0,71,73,5,35,0,0,72,
+        71,1,0,0,0,73,76,1,0,0,0,74,72,1,0,0,0,74,75,1,0,0,0,75,77,1,0,0,
+        0,76,74,1,0,0,0,77,78,3,6,3,0,78,80,1,0,0,0,79,67,1,0,0,0,80,83,
+        1,0,0,0,81,79,1,0,0,0,81,82,1,0,0,0,82,9,1,0,0,0,83,81,1,0,0,0,84,
+        85,7,0,0,0,85,11,1,0,0,0,86,90,3,4,2,0,87,89,5,35,0,0,88,87,1,0,
+        0,0,89,92,1,0,0,0,90,88,1,0,0,0,90,91,1,0,0,0,91,93,1,0,0,0,92,90,
+        1,0,0,0,93,97,5,1,0,0,94,96,5,35,0,0,95,94,1,0,0,0,96,99,1,0,0,0,
+        97,95,1,0,0,0,97,98,1,0,0,0,98,100,1,0,0,0,99,97,1,0,0,0,100,101,
+        3,4,2,0,101,13,1,0,0,0,102,106,3,4,2,0,103,105,5,35,0,0,104,103,
+        1,0,0,0,105,108,1,0,0,0,106,104,1,0,0,0,106,107,1,0,0,0,107,109,
+        1,0,0,0,108,106,1,0,0,0,109,113,3,16,8,0,110,112,5,35,0,0,111,110,
+        1,0,0,0,112,115,1,0,0,0,113,111,1,0,0,0,113,114,1,0,0,0,114,118,
+        1,0,0,0,115,113,1,0,0,0,116,119,3,2,1,0,117,119,5,36,0,0,118,116,
+        1,0,0,0,118,117,1,0,0,0,119,15,1,0,0,0,120,121,7,1,0,0,121,17,1,
+        0,0,0,122,124,5,11,0,0,123,125,5,35,0,0,124,123,1,0,0,0,125,126,
+        1,0,0,0,126,124,1,0,0,0,126,127,1,0,0,0,127,128,1,0,0,0,128,129,
+        3,26,13,0,129,133,5,12,0,0,130,131,5,36,0,0,131,132,5,34,0,0,132,
+        134,3,2,1,0,133,130,1,0,0,0,134,135,1,0,0,0,135,133,1,0,0,0,135,
+        136,1,0,0,0,136,142,1,0,0,0,137,139,5,36,0,0,138,140,5,34,0,0,139,
+        138,1,0,0,0,139,140,1,0,0,0,140,141,1,0,0,0,141,143,3,20,10,0,142,
+        137,1,0,0,0,142,143,1,0,0,0,143,19,1,0,0,0,144,145,5,13,0,0,145,
+        149,5,12,0,0,146,147,5,36,0,0,147,148,5,34,0,0,148,150,3,2,1,0,149,
+        146,1,0,0,0,150,151,1,0,0,0,151,149,1,0,0,0,151,152,1,0,0,0,152,
+        21,1,0,0,0,153,155,5,14,0,0,154,156,5,35,0,0,155,154,1,0,0,0,156,
+        157,1,0,0,0,157,155,1,0,0,0,157,158,1,0,0,0,158,159,1,0,0,0,159,
+        160,3,26,13,0,160,164,5,12,0,0,161,162,5,36,0,0,162,163,5,34,0,0,
+        163,165,3,2,1,0,164,161,1,0,0,0,165,166,1,0,0,0,166,164,1,0,0,0,
+        166,167,1,0,0,0,167,23,1,0,0,0,168,170,5,15,0,0,169,171,5,35,0,0,
+        170,169,1,0,0,0,171,172,1,0,0,0,172,170,1,0,0,0,172,173,1,0,0,0,
+        173,174,1,0,0,0,174,176,3,4,2,0,175,177,5,35,0,0,176,175,1,0,0,0,
+        177,178,1,0,0,0,178,176,1,0,0,0,178,179,1,0,0,0,179,180,1,0,0,0,
+        180,182,5,16,0,0,181,183,5,35,0,0,182,181,1,0,0,0,183,184,1,0,0,
+        0,184,182,1,0,0,0,184,185,1,0,0,0,185,188,1,0,0,0,186,189,3,4,2,
+        0,187,189,5,32,0,0,188,186,1,0,0,0,188,187,1,0,0,0,189,190,1,0,0,
+        0,190,194,5,12,0,0,191,192,5,36,0,0,192,193,5,34,0,0,193,195,3,2,
+        1,0,194,191,1,0,0,0,195,196,1,0,0,0,196,194,1,0,0,0,196,197,1,0,
+        0,0,197,25,1,0,0,0,198,200,5,33,0,0,199,198,1,0,0,0,199,200,1,0,
+        0,0,200,204,1,0,0,0,201,203,5,35,0,0,202,201,1,0,0,0,203,206,1,0,
+        0,0,204,202,1,0,0,0,204,205,1,0,0,0,205,207,1,0,0,0,206,204,1,0,
+        0,0,207,226,3,4,2,0,208,210,5,35,0,0,209,208,1,0,0,0,210,213,1,0,
+        0,0,211,209,1,0,0,0,211,212,1,0,0,0,212,214,1,0,0,0,213,211,1,0,
+        0,0,214,218,3,28,14,0,215,217,5,35,0,0,216,215,1,0,0,0,217,220,1,
+        0,0,0,218,216,1,0,0,0,218,219,1,0,0,0,219,222,1,0,0,0,220,218,1,
+        0,0,0,221,223,3,6,3,0,222,221,1,0,0,0,222,223,1,0,0,0,223,225,1,
+        0,0,0,224,211,1,0,0,0,225,228,1,0,0,0,226,224,1,0,0,0,226,227,1,
+        0,0,0,227,230,1,0,0,0,228,226,1,0,0,0,229,231,3,26,13,0,230,229,
+        1,0,0,0,230,231,1,0,0,0,231,27,1,0,0,0,232,233,7,2,0,0,233,29,1,
+        0,0,0,234,235,7,3,0,0,235,31,1,0,0,0,32,36,39,43,52,61,67,74,81,
+        90,97,106,113,118,126,135,139,142,151,157,166,172,178,184,188,196,
+        199,204,211,218,222,226,230
     ]
 
 class PythonProjectParser ( Parser ):
@@ -121,11 +109,11 @@ class PythonProjectParser ( Parser ):
     sharedContextCache = PredictionContextCache()
 
     literalNames = [ "<INVALID>", "'+'", "'-'", "'*'", "'/'", "'%'", "'='", 
-                     "'+='", "'-='", "'*='", "'/='", "':'", "'while'", "'for'", 
-                     "'in'", "'<'", "'<='", "'>'", "'>='", "'=='", "'!='", 
-                     "'and'", "'or'", "'#'", "'\"\"\"'", "<INVALID>", "<INVALID>", 
+                     "'+='", "'-='", "'*='", "'/='", "'if'", "':'", "'else'", 
+                     "'while'", "'for'", "'in'", "'<'", "'<='", "'>'", "'>='", 
+                     "'=='", "'!='", "'and'", "'or'", "<INVALID>", "<INVALID>", 
                      "<INVALID>", "<INVALID>", "<INVALID>", "<INVALID>", 
-                     "<INVALID>", "'not'", "<INVALID>", "'if'", "'else'" ]
+                     "<INVALID>", "<INVALID>", "'not'" ]
 
     symbolicNames = [ "<INVALID>", "<INVALID>", "<INVALID>", "<INVALID>", 
                       "<INVALID>", "<INVALID>", "<INVALID>", "<INVALID>", 
@@ -133,9 +121,9 @@ class PythonProjectParser ( Parser ):
                       "<INVALID>", "<INVALID>", "<INVALID>", "<INVALID>", 
                       "<INVALID>", "<INVALID>", "<INVALID>", "<INVALID>", 
                       "<INVALID>", "<INVALID>", "<INVALID>", "<INVALID>", 
-                      "<INVALID>", "NUMBER", "DECIMAL", "BOOL", "SPECIAL", 
-                      "LETTER", "SENTENCE", "STRING", "NOT", "TAB", "IF", 
-                      "ELSE", "VARNAME", "WS", "NEWLINE" ]
+                      "<INVALID>", "VARNAME", "SingleLineComment", "MultiLineComment", 
+                      "NUMBER", "DECIMAL", "BOOL", "LETTER", "STRING", "NOT", 
+                      "TAB", "WS", "NEWLINE" ]
 
     RULE_start = 0
     RULE_expr = 1
@@ -152,15 +140,12 @@ class PythonProjectParser ( Parser ):
     RULE_forStatement = 12
     RULE_conditional = 13
     RULE_conditionOP = 14
-    RULE_singleLineComment = 15
-    RULE_multiLineComment = 16
-    RULE_comment = 17
+    RULE_comment = 15
 
     ruleNames =  [ "start", "expr", "variable", "assignValue", "arithmetic", 
                    "arithmetOP", "concat", "assignment", "assignOP", "ifStatement", 
                    "elseStatement", "whileStatement", "forStatement", "conditional", 
-                   "conditionOP", "singleLineComment", "multiLineComment", 
-                   "comment" ]
+                   "conditionOP", "comment" ]
 
     EOF = Token.EOF
     T__0=1
@@ -187,20 +172,18 @@ class PythonProjectParser ( Parser ):
     T__21=22
     T__22=23
     T__23=24
-    NUMBER=25
-    DECIMAL=26
-    BOOL=27
-    SPECIAL=28
-    LETTER=29
-    SENTENCE=30
-    STRING=31
-    NOT=32
-    TAB=33
-    IF=34
-    ELSE=35
-    VARNAME=36
-    WS=37
-    NEWLINE=38
+    VARNAME=25
+    SingleLineComment=26
+    MultiLineComment=27
+    NUMBER=28
+    DECIMAL=29
+    BOOL=30
+    LETTER=31
+    STRING=32
+    NOT=33
+    TAB=34
+    WS=35
+    NEWLINE=36
 
     def __init__(self, input:TokenStream, output:TextIO = sys.stdout):
         super().__init__(input, output)
@@ -258,40 +241,40 @@ class PythonProjectParser ( Parser ):
         self._la = 0 # Token type
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 45 
+            self.state = 41 
             self._errHandler.sync(self)
             _la = self._input.LA(1)
             while True:
-                self.state = 36
+                self.state = 32
                 self.expr()
-                self.state = 43
+                self.state = 39
                 self._errHandler.sync(self)
                 token = self._input.LA(1)
-                if token in [38]:
-                    self.state = 38 
+                if token in [36]:
+                    self.state = 34 
                     self._errHandler.sync(self)
                     _la = self._input.LA(1)
                     while True:
-                        self.state = 37
+                        self.state = 33
                         self.match(PythonProjectParser.NEWLINE)
-                        self.state = 40 
+                        self.state = 36 
                         self._errHandler.sync(self)
                         _la = self._input.LA(1)
-                        if not (_la==38):
+                        if not (_la==36):
                             break
 
                     pass
                 elif token in [-1]:
-                    self.state = 42
+                    self.state = 38
                     self.match(PythonProjectParser.EOF)
                     pass
                 else:
                     raise NoViableAltException(self)
 
-                self.state = 47 
+                self.state = 43 
                 self._errHandler.sync(self)
                 _la = self._input.LA(1)
-                if not (((_la) & ~0x3f) == 0 and ((1 << _la) & 88306888704) != 0):
+                if not (((_la) & ~0x3f) == 0 and ((1 << _la) & 6408947712) != 0):
                     break
 
         except RecognitionException as re:
@@ -358,41 +341,41 @@ class PythonProjectParser ( Parser ):
         self.enterRule(localctx, 2, self.RULE_expr)
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 56
+            self.state = 52
             self._errHandler.sync(self)
             la_ = self._interp.adaptivePredict(self._input,3,self._ctx)
             if la_ == 1:
-                self.state = 49
+                self.state = 45
                 self.arithmetic()
                 pass
 
             elif la_ == 2:
-                self.state = 50
+                self.state = 46
                 self.concat()
                 pass
 
             elif la_ == 3:
-                self.state = 51
+                self.state = 47
                 self.assignment()
                 pass
 
             elif la_ == 4:
-                self.state = 52
+                self.state = 48
                 self.ifStatement()
                 pass
 
             elif la_ == 5:
-                self.state = 53
+                self.state = 49
                 self.whileStatement()
                 pass
 
             elif la_ == 6:
-                self.state = 54
+                self.state = 50
                 self.forStatement()
                 pass
 
             elif la_ == 7:
-                self.state = 55
+                self.state = 51
                 self.comment()
                 pass
 
@@ -436,7 +419,7 @@ class PythonProjectParser ( Parser ):
         self.enterRule(localctx, 4, self.RULE_variable)
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 58
+            self.state = 54
             self.match(PythonProjectParser.VARNAME)
         except RecognitionException as re:
             localctx.exception = re
@@ -490,27 +473,27 @@ class PythonProjectParser ( Parser ):
         self.enterRule(localctx, 6, self.RULE_assignValue)
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 65
+            self.state = 61
             self._errHandler.sync(self)
             token = self._input.LA(1)
-            if token in [36]:
-                self.state = 60
+            if token in [25]:
+                self.state = 56
                 self.variable()
                 pass
-            elif token in [25]:
-                self.state = 61
+            elif token in [28]:
+                self.state = 57
                 self.match(PythonProjectParser.NUMBER)
                 pass
-            elif token in [27]:
-                self.state = 62
+            elif token in [30]:
+                self.state = 58
                 self.match(PythonProjectParser.BOOL)
                 pass
-            elif token in [26]:
-                self.state = 63
+            elif token in [29]:
+                self.state = 59
                 self.match(PythonProjectParser.DECIMAL)
                 pass
-            elif token in [31]:
-                self.state = 64
+            elif token in [32]:
+                self.state = 60
                 self.match(PythonProjectParser.STRING)
                 pass
             else:
@@ -573,37 +556,37 @@ class PythonProjectParser ( Parser ):
         self._la = 0 # Token type
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 67
+            self.state = 63
             self.assignValue()
-            self.state = 85
+            self.state = 81
             self._errHandler.sync(self)
             _la = self._input.LA(1)
-            while ((_la) & ~0x3f) == 0 and ((1 << _la) & 137438953534) != 0:
-                self.state = 71
+            while ((_la) & ~0x3f) == 0 and ((1 << _la) & 34359738430) != 0:
+                self.state = 67
                 self._errHandler.sync(self)
                 _la = self._input.LA(1)
-                while _la==37:
-                    self.state = 68
+                while _la==35:
+                    self.state = 64
                     self.match(PythonProjectParser.WS)
-                    self.state = 73
+                    self.state = 69
                     self._errHandler.sync(self)
                     _la = self._input.LA(1)
 
-                self.state = 74
+                self.state = 70
                 self.arithmetOP()
-                self.state = 78
+                self.state = 74
                 self._errHandler.sync(self)
                 _la = self._input.LA(1)
-                while _la==37:
-                    self.state = 75
+                while _la==35:
+                    self.state = 71
                     self.match(PythonProjectParser.WS)
-                    self.state = 80
+                    self.state = 76
                     self._errHandler.sync(self)
                     _la = self._input.LA(1)
 
-                self.state = 81
+                self.state = 77
                 self.assignValue()
-                self.state = 87
+                self.state = 83
                 self._errHandler.sync(self)
                 _la = self._input.LA(1)
 
@@ -645,7 +628,7 @@ class PythonProjectParser ( Parser ):
         self._la = 0 # Token type
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 88
+            self.state = 84
             _la = self._input.LA(1)
             if not(((_la) & ~0x3f) == 0 and ((1 << _la) & 62) != 0):
                 self._errHandler.recoverInline(self)
@@ -702,32 +685,32 @@ class PythonProjectParser ( Parser ):
         self._la = 0 # Token type
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 90
+            self.state = 86
             self.variable()
 
-            self.state = 94
+            self.state = 90
             self._errHandler.sync(self)
             _la = self._input.LA(1)
-            while _la==37:
-                self.state = 91
+            while _la==35:
+                self.state = 87
                 self.match(PythonProjectParser.WS)
-                self.state = 96
+                self.state = 92
                 self._errHandler.sync(self)
                 _la = self._input.LA(1)
 
-            self.state = 97
+            self.state = 93
             self.match(PythonProjectParser.T__0)
-            self.state = 101
+            self.state = 97
             self._errHandler.sync(self)
             _la = self._input.LA(1)
-            while _la==37:
-                self.state = 98
+            while _la==35:
+                self.state = 94
                 self.match(PythonProjectParser.WS)
-                self.state = 103
+                self.state = 99
                 self._errHandler.sync(self)
                 _la = self._input.LA(1)
 
-            self.state = 104
+            self.state = 100
             self.variable()
         except RecognitionException as re:
             localctx.exception = re
@@ -787,39 +770,39 @@ class PythonProjectParser ( Parser ):
         self._la = 0 # Token type
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 106
+            self.state = 102
             self.variable()
-            self.state = 110
+            self.state = 106
             self._errHandler.sync(self)
             _la = self._input.LA(1)
-            while _la==37:
-                self.state = 107
+            while _la==35:
+                self.state = 103
                 self.match(PythonProjectParser.WS)
-                self.state = 112
+                self.state = 108
                 self._errHandler.sync(self)
                 _la = self._input.LA(1)
 
-            self.state = 113
+            self.state = 109
             self.assignOP()
-            self.state = 117
+            self.state = 113
             self._errHandler.sync(self)
             _la = self._input.LA(1)
-            while _la==37:
-                self.state = 114
+            while _la==35:
+                self.state = 110
                 self.match(PythonProjectParser.WS)
-                self.state = 119
+                self.state = 115
                 self._errHandler.sync(self)
                 _la = self._input.LA(1)
 
-            self.state = 122
+            self.state = 118
             self._errHandler.sync(self)
             token = self._input.LA(1)
-            if token in [12, 13, 23, 24, 25, 26, 27, 31, 34, 36]:
-                self.state = 120
+            if token in [11, 14, 15, 25, 26, 27, 28, 29, 30, 32]:
+                self.state = 116
                 self.expr()
                 pass
-            elif token in [38]:
-                self.state = 121
+            elif token in [36]:
+                self.state = 117
                 self.match(PythonProjectParser.NEWLINE)
                 pass
             else:
@@ -863,7 +846,7 @@ class PythonProjectParser ( Parser ):
         self._la = 0 # Token type
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 124
+            self.state = 120
             _la = self._input.LA(1)
             if not(((_la) & ~0x3f) == 0 and ((1 << _la) & 1984) != 0):
                 self._errHandler.recoverInline(self)
@@ -885,9 +868,6 @@ class PythonProjectParser ( Parser ):
         def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
             super().__init__(parent, invokingState)
             self.parser = parser
-
-        def IF(self):
-            return self.getToken(PythonProjectParser.IF, 0)
 
         def conditional(self):
             return self.getTypedRuleContext(PythonProjectParser.ConditionalContext,0)
@@ -943,59 +923,59 @@ class PythonProjectParser ( Parser ):
         self._la = 0 # Token type
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 126
-            self.match(PythonProjectParser.IF)
-            self.state = 128 
+            self.state = 122
+            self.match(PythonProjectParser.T__10)
+            self.state = 124 
             self._errHandler.sync(self)
             _alt = 1
             while _alt!=2 and _alt!=ATN.INVALID_ALT_NUMBER:
                 if _alt == 1:
-                    self.state = 127
+                    self.state = 123
                     self.match(PythonProjectParser.WS)
 
                 else:
                     raise NoViableAltException(self)
-                self.state = 130 
+                self.state = 126 
                 self._errHandler.sync(self)
                 _alt = self._interp.adaptivePredict(self._input,13,self._ctx)
 
-            self.state = 132
+            self.state = 128
             self.conditional()
-            self.state = 133
-            self.match(PythonProjectParser.T__10)
-            self.state = 137 
+            self.state = 129
+            self.match(PythonProjectParser.T__11)
+            self.state = 133 
             self._errHandler.sync(self)
             _alt = 1
             while _alt!=2 and _alt!=ATN.INVALID_ALT_NUMBER:
                 if _alt == 1:
-                    self.state = 134
+                    self.state = 130
                     self.match(PythonProjectParser.NEWLINE)
-                    self.state = 135
+                    self.state = 131
                     self.match(PythonProjectParser.TAB)
-                    self.state = 136
+                    self.state = 132
                     self.expr()
 
                 else:
                     raise NoViableAltException(self)
-                self.state = 139 
+                self.state = 135 
                 self._errHandler.sync(self)
                 _alt = self._interp.adaptivePredict(self._input,14,self._ctx)
 
-            self.state = 146
+            self.state = 142
             self._errHandler.sync(self)
             la_ = self._interp.adaptivePredict(self._input,16,self._ctx)
             if la_ == 1:
-                self.state = 141
+                self.state = 137
                 self.match(PythonProjectParser.NEWLINE)
-                self.state = 143
+                self.state = 139
                 self._errHandler.sync(self)
                 _la = self._input.LA(1)
-                if _la==33:
-                    self.state = 142
+                if _la==34:
+                    self.state = 138
                     self.match(PythonProjectParser.TAB)
 
 
-                self.state = 145
+                self.state = 141
                 self.elseStatement()
 
 
@@ -1014,9 +994,6 @@ class PythonProjectParser ( Parser ):
         def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
             super().__init__(parent, invokingState)
             self.parser = parser
-
-        def ELSE(self):
-            return self.getToken(PythonProjectParser.ELSE, 0)
 
         def NEWLINE(self, i:int=None):
             if i is None:
@@ -1057,25 +1034,25 @@ class PythonProjectParser ( Parser ):
         self.enterRule(localctx, 20, self.RULE_elseStatement)
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 148
-            self.match(PythonProjectParser.ELSE)
-            self.state = 149
-            self.match(PythonProjectParser.T__10)
-            self.state = 153 
+            self.state = 144
+            self.match(PythonProjectParser.T__12)
+            self.state = 145
+            self.match(PythonProjectParser.T__11)
+            self.state = 149 
             self._errHandler.sync(self)
             _alt = 1
             while _alt!=2 and _alt!=ATN.INVALID_ALT_NUMBER:
                 if _alt == 1:
-                    self.state = 150
+                    self.state = 146
                     self.match(PythonProjectParser.NEWLINE)
-                    self.state = 151
+                    self.state = 147
                     self.match(PythonProjectParser.TAB)
-                    self.state = 152
+                    self.state = 148
                     self.expr()
 
                 else:
                     raise NoViableAltException(self)
-                self.state = 155 
+                self.state = 151 
                 self._errHandler.sync(self)
                 _alt = self._interp.adaptivePredict(self._input,17,self._ctx)
 
@@ -1124,10 +1101,6 @@ class PythonProjectParser ( Parser ):
                 return self.getTypedRuleContext(PythonProjectParser.ExprContext,i)
 
 
-        def elseStatement(self):
-            return self.getTypedRuleContext(PythonProjectParser.ElseStatementContext,0)
-
-
         def getRuleIndex(self):
             return PythonProjectParser.RULE_whileStatement
 
@@ -1148,53 +1121,43 @@ class PythonProjectParser ( Parser ):
         self.enterRule(localctx, 22, self.RULE_whileStatement)
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 157
-            self.match(PythonProjectParser.T__11)
-            self.state = 159 
+            self.state = 153
+            self.match(PythonProjectParser.T__13)
+            self.state = 155 
             self._errHandler.sync(self)
             _alt = 1
             while _alt!=2 and _alt!=ATN.INVALID_ALT_NUMBER:
                 if _alt == 1:
-                    self.state = 158
+                    self.state = 154
                     self.match(PythonProjectParser.WS)
 
                 else:
                     raise NoViableAltException(self)
-                self.state = 161 
+                self.state = 157 
                 self._errHandler.sync(self)
                 _alt = self._interp.adaptivePredict(self._input,18,self._ctx)
 
-            self.state = 163
+            self.state = 159
             self.conditional()
-            self.state = 164
-            self.match(PythonProjectParser.T__10)
-            self.state = 168 
+            self.state = 160
+            self.match(PythonProjectParser.T__11)
+            self.state = 164 
             self._errHandler.sync(self)
             _alt = 1
             while _alt!=2 and _alt!=ATN.INVALID_ALT_NUMBER:
                 if _alt == 1:
-                    self.state = 165
+                    self.state = 161
                     self.match(PythonProjectParser.NEWLINE)
-                    self.state = 166
+                    self.state = 162
                     self.match(PythonProjectParser.TAB)
-                    self.state = 167
+                    self.state = 163
                     self.expr()
 
                 else:
                     raise NoViableAltException(self)
-                self.state = 170 
+                self.state = 166 
                 self._errHandler.sync(self)
                 _alt = self._interp.adaptivePredict(self._input,19,self._ctx)
-
-            self.state = 174
-            self._errHandler.sync(self)
-            la_ = self._interp.adaptivePredict(self._input,20,self._ctx)
-            if la_ == 1:
-                self.state = 172
-                self.match(PythonProjectParser.NEWLINE)
-                self.state = 173
-                self.elseStatement()
-
 
         except RecognitionException as re:
             localctx.exception = re
@@ -1247,10 +1210,6 @@ class PythonProjectParser ( Parser ):
                 return self.getTypedRuleContext(PythonProjectParser.ExprContext,i)
 
 
-        def elseStatement(self):
-            return self.getTypedRuleContext(PythonProjectParser.ElseStatementContext,0)
-
-
         def getRuleIndex(self):
             return PythonProjectParser.RULE_forStatement
 
@@ -1272,91 +1231,81 @@ class PythonProjectParser ( Parser ):
         self._la = 0 # Token type
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 176
-            self.match(PythonProjectParser.T__12)
-            self.state = 178 
+            self.state = 168
+            self.match(PythonProjectParser.T__14)
+            self.state = 170 
             self._errHandler.sync(self)
             _la = self._input.LA(1)
             while True:
-                self.state = 177
+                self.state = 169
                 self.match(PythonProjectParser.WS)
-                self.state = 180 
+                self.state = 172 
                 self._errHandler.sync(self)
                 _la = self._input.LA(1)
-                if not (_la==37):
+                if not (_la==35):
                     break
 
-            self.state = 182
+            self.state = 174
             self.variable()
-            self.state = 184 
+            self.state = 176 
             self._errHandler.sync(self)
             _la = self._input.LA(1)
             while True:
-                self.state = 183
+                self.state = 175
                 self.match(PythonProjectParser.WS)
-                self.state = 186 
+                self.state = 178 
                 self._errHandler.sync(self)
                 _la = self._input.LA(1)
-                if not (_la==37):
+                if not (_la==35):
+                    break
+
+            self.state = 180
+            self.match(PythonProjectParser.T__15)
+            self.state = 182 
+            self._errHandler.sync(self)
+            _la = self._input.LA(1)
+            while True:
+                self.state = 181
+                self.match(PythonProjectParser.WS)
+                self.state = 184 
+                self._errHandler.sync(self)
+                _la = self._input.LA(1)
+                if not (_la==35):
                     break
 
             self.state = 188
-            self.match(PythonProjectParser.T__13)
-            self.state = 190 
-            self._errHandler.sync(self)
-            _la = self._input.LA(1)
-            while True:
-                self.state = 189
-                self.match(PythonProjectParser.WS)
-                self.state = 192 
-                self._errHandler.sync(self)
-                _la = self._input.LA(1)
-                if not (_la==37):
-                    break
-
-            self.state = 196
             self._errHandler.sync(self)
             token = self._input.LA(1)
-            if token in [36]:
-                self.state = 194
+            if token in [25]:
+                self.state = 186
                 self.variable()
                 pass
-            elif token in [31]:
-                self.state = 195
+            elif token in [32]:
+                self.state = 187
                 self.match(PythonProjectParser.STRING)
                 pass
             else:
                 raise NoViableAltException(self)
 
-            self.state = 198
-            self.match(PythonProjectParser.T__10)
-            self.state = 202 
+            self.state = 190
+            self.match(PythonProjectParser.T__11)
+            self.state = 194 
             self._errHandler.sync(self)
             _alt = 1
             while _alt!=2 and _alt!=ATN.INVALID_ALT_NUMBER:
                 if _alt == 1:
-                    self.state = 199
+                    self.state = 191
                     self.match(PythonProjectParser.NEWLINE)
-                    self.state = 200
+                    self.state = 192
                     self.match(PythonProjectParser.TAB)
-                    self.state = 201
+                    self.state = 193
                     self.expr()
 
                 else:
                     raise NoViableAltException(self)
-                self.state = 204 
+                self.state = 196 
                 self._errHandler.sync(self)
-                _alt = self._interp.adaptivePredict(self._input,25,self._ctx)
-
-            self.state = 208
-            self._errHandler.sync(self)
-            la_ = self._interp.adaptivePredict(self._input,26,self._ctx)
-            if la_ == 1:
-                self.state = 206
-                self.match(PythonProjectParser.NEWLINE)
-                self.state = 207
-                self.elseStatement()
-
+                _alt = self._interp.adaptivePredict(self._input,24,self._ctx)
 
         except RecognitionException as re:
             localctx.exception = re
@@ -1426,71 +1375,71 @@ class PythonProjectParser ( Parser ):
         self._la = 0 # Token type
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 211
+            self.state = 199
             self._errHandler.sync(self)
             _la = self._input.LA(1)
-            if _la==32:
-                self.state = 210
+            if _la==33:
+                self.state = 198
                 self.match(PythonProjectParser.NOT)
 
 
-            self.state = 216
+            self.state = 204
             self._errHandler.sync(self)
             _la = self._input.LA(1)
-            while _la==37:
-                self.state = 213
+            while _la==35:
+                self.state = 201
                 self.match(PythonProjectParser.WS)
-                self.state = 218
+                self.state = 206
                 self._errHandler.sync(self)
                 _la = self._input.LA(1)
 
-            self.state = 219
+            self.state = 207
             self.variable()
-            self.state = 238
+            self.state = 226
             self._errHandler.sync(self)
-            _alt = self._interp.adaptivePredict(self._input,32,self._ctx)
+            _alt = self._interp.adaptivePredict(self._input,30,self._ctx)
             while _alt!=2 and _alt!=ATN.INVALID_ALT_NUMBER:
                 if _alt==1:
-                    self.state = 223
+                    self.state = 211
                     self._errHandler.sync(self)
                     _la = self._input.LA(1)
-                    while _la==37:
-                        self.state = 220
+                    while _la==35:
+                        self.state = 208
                         self.match(PythonProjectParser.WS)
-                        self.state = 225
+                        self.state = 213
                         self._errHandler.sync(self)
                         _la = self._input.LA(1)
 
-                    self.state = 226
+                    self.state = 214
                     self.conditionOP()
-                    self.state = 230
+                    self.state = 218
                     self._errHandler.sync(self)
-                    _alt = self._interp.adaptivePredict(self._input,30,self._ctx)
+                    _alt = self._interp.adaptivePredict(self._input,28,self._ctx)
                     while _alt!=2 and _alt!=ATN.INVALID_ALT_NUMBER:
                         if _alt==1:
-                            self.state = 227
+                            self.state = 215
                             self.match(PythonProjectParser.WS) 
-                        self.state = 232
+                        self.state = 220
                         self._errHandler.sync(self)
-                        _alt = self._interp.adaptivePredict(self._input,30,self._ctx)
+                        _alt = self._interp.adaptivePredict(self._input,28,self._ctx)
 
-                    self.state = 234
+                    self.state = 222
                     self._errHandler.sync(self)
-                    la_ = self._interp.adaptivePredict(self._input,31,self._ctx)
+                    la_ = self._interp.adaptivePredict(self._input,29,self._ctx)
                     if la_ == 1:
-                        self.state = 233
+                        self.state = 221
                         self.assignValue()
 
              
-                self.state = 240
+                self.state = 228
                 self._errHandler.sync(self)
-                _alt = self._interp.adaptivePredict(self._input,32,self._ctx)
+                _alt = self._interp.adaptivePredict(self._input,30,self._ctx)
 
-            self.state = 242
+            self.state = 230
             self._errHandler.sync(self)
             _la = self._input.LA(1)
-            if ((_la) & ~0x3f) == 0 and ((1 << _la) & 210453397504) != 0:
-                self.state = 241
+            if ((_la) & ~0x3f) == 0 and ((1 << _la) & 42983227392) != 0:
+                self.state = 229
                 self.conditional()
 
 
@@ -1532,153 +1481,13 @@ class PythonProjectParser ( Parser ):
         self._la = 0 # Token type
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 244
+            self.state = 232
             _la = self._input.LA(1)
-            if not(((_la) & ~0x3f) == 0 and ((1 << _la) & 8355840) != 0):
+            if not(((_la) & ~0x3f) == 0 and ((1 << _la) & 33423360) != 0):
                 self._errHandler.recoverInline(self)
             else:
                 self._errHandler.reportMatch(self)
                 self.consume()
-        except RecognitionException as re:
-            localctx.exception = re
-            self._errHandler.reportError(self, re)
-            self._errHandler.recover(self, re)
-        finally:
-            self.exitRule()
-        return localctx
-
-
-    class SingleLineCommentContext(ParserRuleContext):
-        __slots__ = 'parser'
-
-        def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
-            super().__init__(parent, invokingState)
-            self.parser = parser
-
-        def SENTENCE(self, i:int=None):
-            if i is None:
-                return self.getTokens(PythonProjectParser.SENTENCE)
-            else:
-                return self.getToken(PythonProjectParser.SENTENCE, i)
-
-        def SPECIAL(self, i:int=None):
-            if i is None:
-                return self.getTokens(PythonProjectParser.SPECIAL)
-            else:
-                return self.getToken(PythonProjectParser.SPECIAL, i)
-
-        def getRuleIndex(self):
-            return PythonProjectParser.RULE_singleLineComment
-
-        def enterRule(self, listener:ParseTreeListener):
-            if hasattr( listener, "enterSingleLineComment" ):
-                listener.enterSingleLineComment(self)
-
-        def exitRule(self, listener:ParseTreeListener):
-            if hasattr( listener, "exitSingleLineComment" ):
-                listener.exitSingleLineComment(self)
-
-
-
-
-    def singleLineComment(self):
-
-        localctx = PythonProjectParser.SingleLineCommentContext(self, self._ctx, self.state)
-        self.enterRule(localctx, 30, self.RULE_singleLineComment)
-        self._la = 0 # Token type
-        try:
-            self.enterOuterAlt(localctx, 1)
-            self.state = 246
-            self.match(PythonProjectParser.T__22)
-            self.state = 250
-            self._errHandler.sync(self)
-            _la = self._input.LA(1)
-            while _la==28 or _la==30:
-                self.state = 247
-                _la = self._input.LA(1)
-                if not(_la==28 or _la==30):
-                    self._errHandler.recoverInline(self)
-                else:
-                    self._errHandler.reportMatch(self)
-                    self.consume()
-                self.state = 252
-                self._errHandler.sync(self)
-                _la = self._input.LA(1)
-
-        except RecognitionException as re:
-            localctx.exception = re
-            self._errHandler.reportError(self, re)
-            self._errHandler.recover(self, re)
-        finally:
-            self.exitRule()
-        return localctx
-
-
-    class MultiLineCommentContext(ParserRuleContext):
-        __slots__ = 'parser'
-
-        def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
-            super().__init__(parent, invokingState)
-            self.parser = parser
-
-        def SENTENCE(self, i:int=None):
-            if i is None:
-                return self.getTokens(PythonProjectParser.SENTENCE)
-            else:
-                return self.getToken(PythonProjectParser.SENTENCE, i)
-
-        def SPECIAL(self, i:int=None):
-            if i is None:
-                return self.getTokens(PythonProjectParser.SPECIAL)
-            else:
-                return self.getToken(PythonProjectParser.SPECIAL, i)
-
-        def NEWLINE(self, i:int=None):
-            if i is None:
-                return self.getTokens(PythonProjectParser.NEWLINE)
-            else:
-                return self.getToken(PythonProjectParser.NEWLINE, i)
-
-        def getRuleIndex(self):
-            return PythonProjectParser.RULE_multiLineComment
-
-        def enterRule(self, listener:ParseTreeListener):
-            if hasattr( listener, "enterMultiLineComment" ):
-                listener.enterMultiLineComment(self)
-
-        def exitRule(self, listener:ParseTreeListener):
-            if hasattr( listener, "exitMultiLineComment" ):
-                listener.exitMultiLineComment(self)
-
-
-
-
-    def multiLineComment(self):
-
-        localctx = PythonProjectParser.MultiLineCommentContext(self, self._ctx, self.state)
-        self.enterRule(localctx, 32, self.RULE_multiLineComment)
-        self._la = 0 # Token type
-        try:
-            self.enterOuterAlt(localctx, 1)
-            self.state = 253
-            self.match(PythonProjectParser.T__23)
-            self.state = 257
-            self._errHandler.sync(self)
-            _la = self._input.LA(1)
-            while ((_la) & ~0x3f) == 0 and ((1 << _la) & 276220084224) != 0:
-                self.state = 254
-                _la = self._input.LA(1)
-                if not(((_la) & ~0x3f) == 0 and ((1 << _la) & 276220084224) != 0):
-                    self._errHandler.recoverInline(self)
-                else:
-                    self._errHandler.reportMatch(self)
-                    self.consume()
-                self.state = 259
-                self._errHandler.sync(self)
-                _la = self._input.LA(1)
-
-            self.state = 260
-            self.match(PythonProjectParser.T__23)
         except RecognitionException as re:
             localctx.exception = re
             self._errHandler.reportError(self, re)
@@ -1695,13 +1504,11 @@ class PythonProjectParser ( Parser ):
             super().__init__(parent, invokingState)
             self.parser = parser
 
-        def singleLineComment(self):
-            return self.getTypedRuleContext(PythonProjectParser.SingleLineCommentContext,0)
+        def SingleLineComment(self):
+            return self.getToken(PythonProjectParser.SingleLineComment, 0)
 
-
-        def multiLineComment(self):
-            return self.getTypedRuleContext(PythonProjectParser.MultiLineCommentContext,0)
-
+        def MultiLineComment(self):
+            return self.getToken(PythonProjectParser.MultiLineComment, 0)
 
         def getRuleIndex(self):
             return PythonProjectParser.RULE_comment
@@ -1720,24 +1527,17 @@ class PythonProjectParser ( Parser ):
     def comment(self):
 
         localctx = PythonProjectParser.CommentContext(self, self._ctx, self.state)
-        self.enterRule(localctx, 34, self.RULE_comment)
+        self.enterRule(localctx, 30, self.RULE_comment)
+        self._la = 0 # Token type
         try:
-            self.state = 264
-            self._errHandler.sync(self)
-            token = self._input.LA(1)
-            if token in [23]:
-                self.enterOuterAlt(localctx, 1)
-                self.state = 262
-                self.singleLineComment()
-                pass
-            elif token in [24]:
-                self.enterOuterAlt(localctx, 2)
-                self.state = 263
-                self.multiLineComment()
-                pass
+            self.enterOuterAlt(localctx, 1)
+            self.state = 234
+            _la = self._input.LA(1)
+            if not(_la==26 or _la==27):
+                self._errHandler.recoverInline(self)
             else:
-                raise NoViableAltException(self)
-
+                self._errHandler.reportMatch(self)
+                self.consume()
         except RecognitionException as re:
             localctx.exception = re
             self._errHandler.reportError(self, re)

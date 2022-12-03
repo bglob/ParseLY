@@ -143,24 +143,6 @@ class PythonProjectListener(ParseTreeListener):
         pass
 
 
-    # Enter a parse tree produced by PythonProjectParser#singleLineComment.
-    def enterSingleLineComment(self, ctx:PythonProjectParser.SingleLineCommentContext):
-        pass
-
-    # Exit a parse tree produced by PythonProjectParser#singleLineComment.
-    def exitSingleLineComment(self, ctx:PythonProjectParser.SingleLineCommentContext):
-        pass
-
-
-    # Enter a parse tree produced by PythonProjectParser#multiLineComment.
-    def enterMultiLineComment(self, ctx:PythonProjectParser.MultiLineCommentContext):
-        pass
-
-    # Exit a parse tree produced by PythonProjectParser#multiLineComment.
-    def exitMultiLineComment(self, ctx:PythonProjectParser.MultiLineCommentContext):
-        pass
-
-
     # Enter a parse tree produced by PythonProjectParser#comment.
     def enterComment(self, ctx:PythonProjectParser.CommentContext):
         pass
