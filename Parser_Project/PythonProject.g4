@@ -15,13 +15,13 @@ assignment: (variable WS* assignOP WS*) (expr | NEWLINE);
 assignOP: ('=' | '+=' | '-=' | '*=' | '/=');
 ifStatement: IF WS+ conditional ':' (NEWLINE TAB expr)+ (NEWLINE TAB? elseStatement)?;
 elseStatement: ELSE ':' (NEWLINE TAB expr)+;
-whileStatement: WHILE WS+ conditional ':' (NEWLINE TAB expr)+ (NEWLINE elseStatement)?;
-forStatement: FOR WS+ variable WS+ 'in' WS+ (variable | STRING) ':' (NEWLINE TAB expr)+ (NEWLINE elseStatement)?;
+whileStatement: 'while' WS+ conditional ':' (NEWLINE TAB expr)+ (NEWLINE elseStatement)?;
+forStatement: 'for' WS+ variable WS+ 'in' WS+ (variable | STRING) ':' (NEWLINE TAB expr)+ (NEWLINE elseStatement)?;
 conditional: NOT? WS* variable (WS* conditionOP WS* assignValue?)* (conditional)?;
 conditionOP: ('<' | '<=' | '>' | '>=' | '==' | '!=' | 'and' | 'or');
 
-singleLineComment: '#' (WS | LETTER | NUMBER  | IF | ELSE | arithmetOP | assignOP | conditionOP)*;
-multiLineComment: '"""' (WS | LETTER | NUMBER | IF | ELSE | arithmetOP | assignOP | conditionOP | NEWLINE)* '"""';
+singleLineComment: '#' (SENTENCE | SPECIAL)*;
+multiLineComment: '"""' ~[\\]* '"""';
 comment: singleLineComment | multiLineComment;
 /*Lexer Rules */
 
@@ -30,18 +30,19 @@ fragment LOWER: [a-z];
 fragment UPPER: [A-Z];
 fragment DIGIT: [0-9];
 fragment NEGATIVE: '-';
+fragment SPECIALCHAR: '!'..'/' | ':'..'@' | '['..'`' | '{'..'~';
 
 NUMBER: NEGATIVE? DIGIT+;
 DECIMAL: NUMBER '.' NUMBER;
 BOOL: 'True' | 'False';
+SPECIAL: SPECIALCHAR;
 LETTER: (LOWER | UPPER)+;
-STRING: ('"'(LETTER | NUMBER | WS)*'"') | ('\''(LETTER | NUMBER | WS)*'\'');
+SENTENCE: (LETTER | NUMBER | WS)+;
+STRING: ('"'SENTENCE*'"') | ('\''SENTENCE*'\'');
 NOT: 'not';
 TAB: ([\t] | '    ')+;
 IF: 'if';
 ELSE: 'else';
-WHILE: 'while';
-FOR: 'for';
 
 VARNAME: LETTER (LETTER | NUMBER)*;
 WS: [ ]+;

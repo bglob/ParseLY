@@ -18,6 +18,6 @@ while test2<3:
     test2+=1
 
 while test3>=0:
-    test3-=1
+    test3-=1   
 else:
     "test3 is less than 0"

@@ -10,7 +10,7 @@ else:
 
 def serializedATN():
     return [
-        4,1,36,282,2,0,7,0,2,1,7,1,2,2,7,2,2,3,7,3,2,4,7,4,2,5,7,5,2,6,7,
+        4,1,38,267,2,0,7,0,2,1,7,1,2,2,7,2,2,3,7,3,2,4,7,4,2,5,7,5,2,6,7,
         6,2,7,7,7,2,8,7,8,2,9,7,9,2,10,7,10,2,11,7,11,2,12,7,12,2,13,7,13,
         2,14,7,14,2,15,7,15,2,16,7,16,2,17,7,17,1,0,1,0,4,0,39,8,0,11,0,
         12,0,40,1,0,3,0,44,8,0,4,0,46,8,0,11,0,12,0,47,1,1,1,1,1,1,1,1,1,
@@ -31,91 +31,83 @@ def serializedATN():
         10,13,12,13,218,9,13,1,13,1,13,5,13,222,8,13,10,13,12,13,225,9,13,
         1,13,1,13,5,13,229,8,13,10,13,12,13,232,9,13,1,13,3,13,235,8,13,
         5,13,237,8,13,10,13,12,13,240,9,13,1,13,3,13,243,8,13,1,14,1,14,
-        1,15,1,15,1,15,1,15,1,15,1,15,1,15,1,15,1,15,5,15,256,8,15,10,15,
-        12,15,259,9,15,1,16,1,16,1,16,1,16,1,16,1,16,1,16,1,16,1,16,1,16,
-        5,16,271,8,16,10,16,12,16,274,9,16,1,16,1,16,1,17,1,17,3,17,280,
-        8,17,1,17,0,0,18,0,2,4,6,8,10,12,14,16,18,20,22,24,26,28,30,32,34,
-        0,3,1,0,1,5,1,0,6,10,1,0,15,22,323,0,45,1,0,0,0,2,56,1,0,0,0,4,58,
-        1,0,0,0,6,65,1,0,0,0,8,67,1,0,0,0,10,88,1,0,0,0,12,90,1,0,0,0,14,
-        106,1,0,0,0,16,124,1,0,0,0,18,126,1,0,0,0,20,148,1,0,0,0,22,157,
-        1,0,0,0,24,176,1,0,0,0,26,211,1,0,0,0,28,244,1,0,0,0,30,246,1,0,
-        0,0,32,260,1,0,0,0,34,279,1,0,0,0,36,43,3,2,1,0,37,39,5,36,0,0,38,
-        37,1,0,0,0,39,40,1,0,0,0,40,38,1,0,0,0,40,41,1,0,0,0,41,44,1,0,0,
-        0,42,44,5,0,0,1,43,38,1,0,0,0,43,42,1,0,0,0,44,46,1,0,0,0,45,36,
-        1,0,0,0,46,47,1,0,0,0,47,45,1,0,0,0,47,48,1,0,0,0,48,1,1,0,0,0,49,
-        57,3,8,4,0,50,57,3,12,6,0,51,57,3,14,7,0,52,57,3,18,9,0,53,57,3,
-        22,11,0,54,57,3,24,12,0,55,57,3,34,17,0,56,49,1,0,0,0,56,50,1,0,
-        0,0,56,51,1,0,0,0,56,52,1,0,0,0,56,53,1,0,0,0,56,54,1,0,0,0,56,55,
-        1,0,0,0,57,3,1,0,0,0,58,59,5,34,0,0,59,5,1,0,0,0,60,66,3,4,2,0,61,
-        66,5,25,0,0,62,66,5,27,0,0,63,66,5,26,0,0,64,66,5,29,0,0,65,60,1,
-        0,0,0,65,61,1,0,0,0,65,62,1,0,0,0,65,63,1,0,0,0,65,64,1,0,0,0,66,
-        7,1,0,0,0,67,85,3,6,3,0,68,70,5,35,0,0,69,68,1,0,0,0,70,73,1,0,0,
-        0,71,69,1,0,0,0,71,72,1,0,0,0,72,74,1,0,0,0,73,71,1,0,0,0,74,78,
-        3,10,5,0,75,77,5,35,0,0,76,75,1,0,0,0,77,80,1,0,0,0,78,76,1,0,0,
-        0,78,79,1,0,0,0,79,81,1,0,0,0,80,78,1,0,0,0,81,82,3,6,3,0,82,84,
-        1,0,0,0,83,71,1,0,0,0,84,87,1,0,0,0,85,83,1,0,0,0,85,86,1,0,0,0,
-        86,9,1,0,0,0,87,85,1,0,0,0,88,89,7,0,0,0,89,11,1,0,0,0,90,94,3,4,
-        2,0,91,93,5,35,0,0,92,91,1,0,0,0,93,96,1,0,0,0,94,92,1,0,0,0,94,
-        95,1,0,0,0,95,97,1,0,0,0,96,94,1,0,0,0,97,101,5,1,0,0,98,100,5,35,
-        0,0,99,98,1,0,0,0,100,103,1,0,0,0,101,99,1,0,0,0,101,102,1,0,0,0,
-        102,104,1,0,0,0,103,101,1,0,0,0,104,105,3,4,2,0,105,13,1,0,0,0,106,
-        110,3,4,2,0,107,109,5,35,0,0,108,107,1,0,0,0,109,112,1,0,0,0,110,
-        108,1,0,0,0,110,111,1,0,0,0,111,113,1,0,0,0,112,110,1,0,0,0,113,
-        117,3,16,8,0,114,116,5,35,0,0,115,114,1,0,0,0,116,119,1,0,0,0,117,
-        115,1,0,0,0,117,118,1,0,0,0,118,122,1,0,0,0,119,117,1,0,0,0,120,
-        123,3,2,1,0,121,123,5,36,0,0,122,120,1,0,0,0,122,121,1,0,0,0,123,
-        15,1,0,0,0,124,125,7,1,0,0,125,17,1,0,0,0,126,128,5,32,0,0,127,129,
-        5,35,0,0,128,127,1,0,0,0,129,130,1,0,0,0,130,128,1,0,0,0,130,131,
-        1,0,0,0,131,132,1,0,0,0,132,133,3,26,13,0,133,137,5,11,0,0,134,135,
-        5,36,0,0,135,136,5,31,0,0,136,138,3,2,1,0,137,134,1,0,0,0,138,139,
-        1,0,0,0,139,137,1,0,0,0,139,140,1,0,0,0,140,146,1,0,0,0,141,143,
-        5,36,0,0,142,144,5,31,0,0,143,142,1,0,0,0,143,144,1,0,0,0,144,145,
-        1,0,0,0,145,147,3,20,10,0,146,141,1,0,0,0,146,147,1,0,0,0,147,19,
-        1,0,0,0,148,149,5,33,0,0,149,153,5,11,0,0,150,151,5,36,0,0,151,152,
-        5,31,0,0,152,154,3,2,1,0,153,150,1,0,0,0,154,155,1,0,0,0,155,153,
-        1,0,0,0,155,156,1,0,0,0,156,21,1,0,0,0,157,159,5,12,0,0,158,160,
-        5,35,0,0,159,158,1,0,0,0,160,161,1,0,0,0,161,159,1,0,0,0,161,162,
-        1,0,0,0,162,163,1,0,0,0,163,164,3,26,13,0,164,168,5,11,0,0,165,166,
-        5,36,0,0,166,167,5,31,0,0,167,169,3,2,1,0,168,165,1,0,0,0,169,170,
-        1,0,0,0,170,168,1,0,0,0,170,171,1,0,0,0,171,174,1,0,0,0,172,173,
-        5,36,0,0,173,175,3,20,10,0,174,172,1,0,0,0,174,175,1,0,0,0,175,23,
-        1,0,0,0,176,178,5,13,0,0,177,179,5,35,0,0,178,177,1,0,0,0,179,180,
-        1,0,0,0,180,178,1,0,0,0,180,181,1,0,0,0,181,182,1,0,0,0,182,184,
-        3,4,2,0,183,185,5,35,0,0,184,183,1,0,0,0,185,186,1,0,0,0,186,184,
-        1,0,0,0,186,187,1,0,0,0,187,188,1,0,0,0,188,190,5,14,0,0,189,191,
-        5,35,0,0,190,189,1,0,0,0,191,192,1,0,0,0,192,190,1,0,0,0,192,193,
-        1,0,0,0,193,196,1,0,0,0,194,197,3,4,2,0,195,197,5,29,0,0,196,194,
-        1,0,0,0,196,195,1,0,0,0,197,198,1,0,0,0,198,202,5,11,0,0,199,200,
-        5,36,0,0,200,201,5,31,0,0,201,203,3,2,1,0,202,199,1,0,0,0,203,204,
-        1,0,0,0,204,202,1,0,0,0,204,205,1,0,0,0,205,208,1,0,0,0,206,207,
-        5,36,0,0,207,209,3,20,10,0,208,206,1,0,0,0,208,209,1,0,0,0,209,25,
-        1,0,0,0,210,212,5,30,0,0,211,210,1,0,0,0,211,212,1,0,0,0,212,216,
-        1,0,0,0,213,215,5,35,0,0,214,213,1,0,0,0,215,218,1,0,0,0,216,214,
-        1,0,0,0,216,217,1,0,0,0,217,219,1,0,0,0,218,216,1,0,0,0,219,238,
-        3,4,2,0,220,222,5,35,0,0,221,220,1,0,0,0,222,225,1,0,0,0,223,221,
-        1,0,0,0,223,224,1,0,0,0,224,226,1,0,0,0,225,223,1,0,0,0,226,230,
-        3,28,14,0,227,229,5,35,0,0,228,227,1,0,0,0,229,232,1,0,0,0,230,228,
-        1,0,0,0,230,231,1,0,0,0,231,234,1,0,0,0,232,230,1,0,0,0,233,235,
-        3,6,3,0,234,233,1,0,0,0,234,235,1,0,0,0,235,237,1,0,0,0,236,223,
-        1,0,0,0,237,240,1,0,0,0,238,236,1,0,0,0,238,239,1,0,0,0,239,242,
-        1,0,0,0,240,238,1,0,0,0,241,243,3,26,13,0,242,241,1,0,0,0,242,243,
-        1,0,0,0,243,27,1,0,0,0,244,245,7,2,0,0,245,29,1,0,0,0,246,257,5,
-        23,0,0,247,256,5,35,0,0,248,256,5,28,0,0,249,256,5,25,0,0,250,256,
-        5,32,0,0,251,256,5,33,0,0,252,256,3,10,5,0,253,256,3,16,8,0,254,
-        256,3,28,14,0,255,247,1,0,0,0,255,248,1,0,0,0,255,249,1,0,0,0,255,
-        250,1,0,0,0,255,251,1,0,0,0,255,252,1,0,0,0,255,253,1,0,0,0,255,
-        254,1,0,0,0,256,259,1,0,0,0,257,255,1,0,0,0,257,258,1,0,0,0,258,
-        31,1,0,0,0,259,257,1,0,0,0,260,272,5,24,0,0,261,271,5,35,0,0,262,
-        271,5,28,0,0,263,271,5,25,0,0,264,271,5,32,0,0,265,271,5,33,0,0,
-        266,271,3,10,5,0,267,271,3,16,8,0,268,271,3,28,14,0,269,271,5,36,
-        0,0,270,261,1,0,0,0,270,262,1,0,0,0,270,263,1,0,0,0,270,264,1,0,
-        0,0,270,265,1,0,0,0,270,266,1,0,0,0,270,267,1,0,0,0,270,268,1,0,
-        0,0,270,269,1,0,0,0,271,274,1,0,0,0,272,270,1,0,0,0,272,273,1,0,
-        0,0,273,275,1,0,0,0,274,272,1,0,0,0,275,276,5,24,0,0,276,33,1,0,
-        0,0,277,280,3,30,15,0,278,280,3,32,16,0,279,277,1,0,0,0,279,278,
-        1,0,0,0,280,35,1,0,0,0,39,40,43,47,56,65,71,78,85,94,101,110,117,
-        122,130,139,143,146,155,161,170,174,180,186,192,196,204,208,211,
-        216,223,230,234,238,242,255,257,270,272,279
+        1,15,1,15,5,15,249,8,15,10,15,12,15,252,9,15,1,16,1,16,5,16,256,
+        8,16,10,16,12,16,259,9,16,1,16,1,16,1,17,1,17,3,17,265,8,17,1,17,
+        0,0,18,0,2,4,6,8,10,12,14,16,18,20,22,24,26,28,30,32,34,0,5,1,0,
+        1,5,1,0,6,10,1,0,15,22,2,0,28,28,30,30,3,0,28,28,30,30,38,38,293,
+        0,45,1,0,0,0,2,56,1,0,0,0,4,58,1,0,0,0,6,65,1,0,0,0,8,67,1,0,0,0,
+        10,88,1,0,0,0,12,90,1,0,0,0,14,106,1,0,0,0,16,124,1,0,0,0,18,126,
+        1,0,0,0,20,148,1,0,0,0,22,157,1,0,0,0,24,176,1,0,0,0,26,211,1,0,
+        0,0,28,244,1,0,0,0,30,246,1,0,0,0,32,253,1,0,0,0,34,264,1,0,0,0,
+        36,43,3,2,1,0,37,39,5,38,0,0,38,37,1,0,0,0,39,40,1,0,0,0,40,38,1,
+        0,0,0,40,41,1,0,0,0,41,44,1,0,0,0,42,44,5,0,0,1,43,38,1,0,0,0,43,
+        42,1,0,0,0,44,46,1,0,0,0,45,36,1,0,0,0,46,47,1,0,0,0,47,45,1,0,0,
+        0,47,48,1,0,0,0,48,1,1,0,0,0,49,57,3,8,4,0,50,57,3,12,6,0,51,57,
+        3,14,7,0,52,57,3,18,9,0,53,57,3,22,11,0,54,57,3,24,12,0,55,57,3,
+        34,17,0,56,49,1,0,0,0,56,50,1,0,0,0,56,51,1,0,0,0,56,52,1,0,0,0,
+        56,53,1,0,0,0,56,54,1,0,0,0,56,55,1,0,0,0,57,3,1,0,0,0,58,59,5,36,
+        0,0,59,5,1,0,0,0,60,66,3,4,2,0,61,66,5,25,0,0,62,66,5,27,0,0,63,
+        66,5,26,0,0,64,66,5,31,0,0,65,60,1,0,0,0,65,61,1,0,0,0,65,62,1,0,
+        0,0,65,63,1,0,0,0,65,64,1,0,0,0,66,7,1,0,0,0,67,85,3,6,3,0,68,70,
+        5,37,0,0,69,68,1,0,0,0,70,73,1,0,0,0,71,69,1,0,0,0,71,72,1,0,0,0,
+        72,74,1,0,0,0,73,71,1,0,0,0,74,78,3,10,5,0,75,77,5,37,0,0,76,75,
+        1,0,0,0,77,80,1,0,0,0,78,76,1,0,0,0,78,79,1,0,0,0,79,81,1,0,0,0,
+        80,78,1,0,0,0,81,82,3,6,3,0,82,84,1,0,0,0,83,71,1,0,0,0,84,87,1,
+        0,0,0,85,83,1,0,0,0,85,86,1,0,0,0,86,9,1,0,0,0,87,85,1,0,0,0,88,
+        89,7,0,0,0,89,11,1,0,0,0,90,94,3,4,2,0,91,93,5,37,0,0,92,91,1,0,
+        0,0,93,96,1,0,0,0,94,92,1,0,0,0,94,95,1,0,0,0,95,97,1,0,0,0,96,94,
+        1,0,0,0,97,101,5,1,0,0,98,100,5,37,0,0,99,98,1,0,0,0,100,103,1,0,
+        0,0,101,99,1,0,0,0,101,102,1,0,0,0,102,104,1,0,0,0,103,101,1,0,0,
+        0,104,105,3,4,2,0,105,13,1,0,0,0,106,110,3,4,2,0,107,109,5,37,0,
+        0,108,107,1,0,0,0,109,112,1,0,0,0,110,108,1,0,0,0,110,111,1,0,0,
+        0,111,113,1,0,0,0,112,110,1,0,0,0,113,117,3,16,8,0,114,116,5,37,
+        0,0,115,114,1,0,0,0,116,119,1,0,0,0,117,115,1,0,0,0,117,118,1,0,
+        0,0,118,122,1,0,0,0,119,117,1,0,0,0,120,123,3,2,1,0,121,123,5,38,
+        0,0,122,120,1,0,0,0,122,121,1,0,0,0,123,15,1,0,0,0,124,125,7,1,0,
+        0,125,17,1,0,0,0,126,128,5,34,0,0,127,129,5,37,0,0,128,127,1,0,0,
+        0,129,130,1,0,0,0,130,128,1,0,0,0,130,131,1,0,0,0,131,132,1,0,0,
+        0,132,133,3,26,13,0,133,137,5,11,0,0,134,135,5,38,0,0,135,136,5,
+        33,0,0,136,138,3,2,1,0,137,134,1,0,0,0,138,139,1,0,0,0,139,137,1,
+        0,0,0,139,140,1,0,0,0,140,146,1,0,0,0,141,143,5,38,0,0,142,144,5,
+        33,0,0,143,142,1,0,0,0,143,144,1,0,0,0,144,145,1,0,0,0,145,147,3,
+        20,10,0,146,141,1,0,0,0,146,147,1,0,0,0,147,19,1,0,0,0,148,149,5,
+        35,0,0,149,153,5,11,0,0,150,151,5,38,0,0,151,152,5,33,0,0,152,154,
+        3,2,1,0,153,150,1,0,0,0,154,155,1,0,0,0,155,153,1,0,0,0,155,156,
+        1,0,0,0,156,21,1,0,0,0,157,159,5,12,0,0,158,160,5,37,0,0,159,158,
+        1,0,0,0,160,161,1,0,0,0,161,159,1,0,0,0,161,162,1,0,0,0,162,163,
+        1,0,0,0,163,164,3,26,13,0,164,168,5,11,0,0,165,166,5,38,0,0,166,
+        167,5,33,0,0,167,169,3,2,1,0,168,165,1,0,0,0,169,170,1,0,0,0,170,
+        168,1,0,0,0,170,171,1,0,0,0,171,174,1,0,0,0,172,173,5,38,0,0,173,
+        175,3,20,10,0,174,172,1,0,0,0,174,175,1,0,0,0,175,23,1,0,0,0,176,
+        178,5,13,0,0,177,179,5,37,0,0,178,177,1,0,0,0,179,180,1,0,0,0,180,
+        178,1,0,0,0,180,181,1,0,0,0,181,182,1,0,0,0,182,184,3,4,2,0,183,
+        185,5,37,0,0,184,183,1,0,0,0,185,186,1,0,0,0,186,184,1,0,0,0,186,
+        187,1,0,0,0,187,188,1,0,0,0,188,190,5,14,0,0,189,191,5,37,0,0,190,
+        189,1,0,0,0,191,192,1,0,0,0,192,190,1,0,0,0,192,193,1,0,0,0,193,
+        196,1,0,0,0,194,197,3,4,2,0,195,197,5,31,0,0,196,194,1,0,0,0,196,
+        195,1,0,0,0,197,198,1,0,0,0,198,202,5,11,0,0,199,200,5,38,0,0,200,
+        201,5,33,0,0,201,203,3,2,1,0,202,199,1,0,0,0,203,204,1,0,0,0,204,
+        202,1,0,0,0,204,205,1,0,0,0,205,208,1,0,0,0,206,207,5,38,0,0,207,
+        209,3,20,10,0,208,206,1,0,0,0,208,209,1,0,0,0,209,25,1,0,0,0,210,
+        212,5,32,0,0,211,210,1,0,0,0,211,212,1,0,0,0,212,216,1,0,0,0,213,
+        215,5,37,0,0,214,213,1,0,0,0,215,218,1,0,0,0,216,214,1,0,0,0,216,
+        217,1,0,0,0,217,219,1,0,0,0,218,216,1,0,0,0,219,238,3,4,2,0,220,
+        222,5,37,0,0,221,220,1,0,0,0,222,225,1,0,0,0,223,221,1,0,0,0,223,
+        224,1,0,0,0,224,226,1,0,0,0,225,223,1,0,0,0,226,230,3,28,14,0,227,
+        229,5,37,0,0,228,227,1,0,0,0,229,232,1,0,0,0,230,228,1,0,0,0,230,
+        231,1,0,0,0,231,234,1,0,0,0,232,230,1,0,0,0,233,235,3,6,3,0,234,
+        233,1,0,0,0,234,235,1,0,0,0,235,237,1,0,0,0,236,223,1,0,0,0,237,
+        240,1,0,0,0,238,236,1,0,0,0,238,239,1,0,0,0,239,242,1,0,0,0,240,
+        238,1,0,0,0,241,243,3,26,13,0,242,241,1,0,0,0,242,243,1,0,0,0,243,
+        27,1,0,0,0,244,245,7,2,0,0,245,29,1,0,0,0,246,250,5,23,0,0,247,249,
+        7,3,0,0,248,247,1,0,0,0,249,252,1,0,0,0,250,248,1,0,0,0,250,251,
+        1,0,0,0,251,31,1,0,0,0,252,250,1,0,0,0,253,257,5,24,0,0,254,256,
+        7,4,0,0,255,254,1,0,0,0,256,259,1,0,0,0,257,255,1,0,0,0,257,258,
+        1,0,0,0,258,260,1,0,0,0,259,257,1,0,0,0,260,261,5,24,0,0,261,33,
+        1,0,0,0,262,265,3,30,15,0,263,265,3,32,16,0,264,262,1,0,0,0,264,
+        263,1,0,0,0,265,35,1,0,0,0,37,40,43,47,56,65,71,78,85,94,101,110,
+        117,122,130,139,143,146,155,161,170,174,180,186,192,196,204,208,
+        211,216,223,230,234,238,242,250,257,264
     ]
 
 class PythonProjectParser ( Parser ):
@@ -132,8 +124,8 @@ class PythonProjectParser ( Parser ):
                      "'+='", "'-='", "'*='", "'/='", "':'", "'while'", "'for'", 
                      "'in'", "'<'", "'<='", "'>'", "'>='", "'=='", "'!='", 
                      "'and'", "'or'", "'#'", "'\"\"\"'", "<INVALID>", "<INVALID>", 
-                     "<INVALID>", "<INVALID>", "<INVALID>", "'not'", "<INVALID>", 
-                     "'if'", "'else'" ]
+                     "<INVALID>", "<INVALID>", "<INVALID>", "<INVALID>", 
+                     "<INVALID>", "'not'", "<INVALID>", "'if'", "'else'" ]
 
     symbolicNames = [ "<INVALID>", "<INVALID>", "<INVALID>", "<INVALID>", 
                       "<INVALID>", "<INVALID>", "<INVALID>", "<INVALID>", 
@@ -141,9 +133,9 @@ class PythonProjectParser ( Parser ):
                       "<INVALID>", "<INVALID>", "<INVALID>", "<INVALID>", 
                       "<INVALID>", "<INVALID>", "<INVALID>", "<INVALID>", 
                       "<INVALID>", "<INVALID>", "<INVALID>", "<INVALID>", 
-                      "<INVALID>", "NUMBER", "DECIMAL", "BOOL", "LETTER", 
-                      "STRING", "NOT", "TAB", "IF", "ELSE", "VARNAME", "WS", 
-                      "NEWLINE" ]
+                      "<INVALID>", "NUMBER", "DECIMAL", "BOOL", "SPECIAL", 
+                      "LETTER", "SENTENCE", "STRING", "NOT", "TAB", "IF", 
+                      "ELSE", "VARNAME", "WS", "NEWLINE" ]
 
     RULE_start = 0
     RULE_expr = 1
@@ -198,15 +190,17 @@ class PythonProjectParser ( Parser ):
     NUMBER=25
     DECIMAL=26
     BOOL=27
-    LETTER=28
-    STRING=29
-    NOT=30
-    TAB=31
-    IF=32
-    ELSE=33
-    VARNAME=34
-    WS=35
-    NEWLINE=36
+    SPECIAL=28
+    LETTER=29
+    SENTENCE=30
+    STRING=31
+    NOT=32
+    TAB=33
+    IF=34
+    ELSE=35
+    VARNAME=36
+    WS=37
+    NEWLINE=38
 
     def __init__(self, input:TokenStream, output:TextIO = sys.stdout):
         super().__init__(input, output)
@@ -273,7 +267,7 @@ class PythonProjectParser ( Parser ):
                 self.state = 43
                 self._errHandler.sync(self)
                 token = self._input.LA(1)
-                if token in [36]:
+                if token in [38]:
                     self.state = 38 
                     self._errHandler.sync(self)
                     _la = self._input.LA(1)
@@ -283,7 +277,7 @@ class PythonProjectParser ( Parser ):
                         self.state = 40 
                         self._errHandler.sync(self)
                         _la = self._input.LA(1)
-                        if not (_la==36):
+                        if not (_la==38):
                             break
 
                     pass
@@ -297,7 +291,7 @@ class PythonProjectParser ( Parser ):
                 self.state = 47 
                 self._errHandler.sync(self)
                 _la = self._input.LA(1)
-                if not (((_la) & ~0x3f) == 0 and ((1 << _la) & 22271766528) != 0):
+                if not (((_la) & ~0x3f) == 0 and ((1 << _la) & 88306888704) != 0):
                     break
 
         except RecognitionException as re:
@@ -499,7 +493,7 @@ class PythonProjectParser ( Parser ):
             self.state = 65
             self._errHandler.sync(self)
             token = self._input.LA(1)
-            if token in [34]:
+            if token in [36]:
                 self.state = 60
                 self.variable()
                 pass
@@ -515,7 +509,7 @@ class PythonProjectParser ( Parser ):
                 self.state = 63
                 self.match(PythonProjectParser.DECIMAL)
                 pass
-            elif token in [29]:
+            elif token in [31]:
                 self.state = 64
                 self.match(PythonProjectParser.STRING)
                 pass
@@ -584,11 +578,11 @@ class PythonProjectParser ( Parser ):
             self.state = 85
             self._errHandler.sync(self)
             _la = self._input.LA(1)
-            while ((_la) & ~0x3f) == 0 and ((1 << _la) & 34359738430) != 0:
+            while ((_la) & ~0x3f) == 0 and ((1 << _la) & 137438953534) != 0:
                 self.state = 71
                 self._errHandler.sync(self)
                 _la = self._input.LA(1)
-                while _la==35:
+                while _la==37:
                     self.state = 68
                     self.match(PythonProjectParser.WS)
                     self.state = 73
@@ -600,7 +594,7 @@ class PythonProjectParser ( Parser ):
                 self.state = 78
                 self._errHandler.sync(self)
                 _la = self._input.LA(1)
-                while _la==35:
+                while _la==37:
                     self.state = 75
                     self.match(PythonProjectParser.WS)
                     self.state = 80
@@ -714,7 +708,7 @@ class PythonProjectParser ( Parser ):
             self.state = 94
             self._errHandler.sync(self)
             _la = self._input.LA(1)
-            while _la==35:
+            while _la==37:
                 self.state = 91
                 self.match(PythonProjectParser.WS)
                 self.state = 96
@@ -726,7 +720,7 @@ class PythonProjectParser ( Parser ):
             self.state = 101
             self._errHandler.sync(self)
             _la = self._input.LA(1)
-            while _la==35:
+            while _la==37:
                 self.state = 98
                 self.match(PythonProjectParser.WS)
                 self.state = 103
@@ -798,7 +792,7 @@ class PythonProjectParser ( Parser ):
             self.state = 110
             self._errHandler.sync(self)
             _la = self._input.LA(1)
-            while _la==35:
+            while _la==37:
                 self.state = 107
                 self.match(PythonProjectParser.WS)
                 self.state = 112
@@ -810,7 +804,7 @@ class PythonProjectParser ( Parser ):
             self.state = 117
             self._errHandler.sync(self)
             _la = self._input.LA(1)
-            while _la==35:
+            while _la==37:
                 self.state = 114
                 self.match(PythonProjectParser.WS)
                 self.state = 119
@@ -820,11 +814,11 @@ class PythonProjectParser ( Parser ):
             self.state = 122
             self._errHandler.sync(self)
             token = self._input.LA(1)
-            if token in [12, 13, 23, 24, 25, 26, 27, 29, 32, 34]:
+            if token in [12, 13, 23, 24, 25, 26, 27, 31, 34, 36]:
                 self.state = 120
                 self.expr()
                 pass
-            elif token in [36]:
+            elif token in [38]:
                 self.state = 121
                 self.match(PythonProjectParser.NEWLINE)
                 pass
@@ -996,7 +990,7 @@ class PythonProjectParser ( Parser ):
                 self.state = 143
                 self._errHandler.sync(self)
                 _la = self._input.LA(1)
-                if _la==31:
+                if _la==33:
                     self.state = 142
                     self.match(PythonProjectParser.TAB)
 
@@ -1289,7 +1283,7 @@ class PythonProjectParser ( Parser ):
                 self.state = 180 
                 self._errHandler.sync(self)
                 _la = self._input.LA(1)
-                if not (_la==35):
+                if not (_la==37):
                     break
 
             self.state = 182
@@ -1303,7 +1297,7 @@ class PythonProjectParser ( Parser ):
                 self.state = 186 
                 self._errHandler.sync(self)
                 _la = self._input.LA(1)
-                if not (_la==35):
+                if not (_la==37):
                     break
 
             self.state = 188
@@ -1317,17 +1311,17 @@ class PythonProjectParser ( Parser ):
                 self.state = 192 
                 self._errHandler.sync(self)
                 _la = self._input.LA(1)
-                if not (_la==35):
+                if not (_la==37):
                     break
 
             self.state = 196
             self._errHandler.sync(self)
             token = self._input.LA(1)
-            if token in [34]:
+            if token in [36]:
                 self.state = 194
                 self.variable()
                 pass
-            elif token in [29]:
+            elif token in [31]:
                 self.state = 195
                 self.match(PythonProjectParser.STRING)
                 pass
@@ -1435,7 +1429,7 @@ class PythonProjectParser ( Parser ):
             self.state = 211
             self._errHandler.sync(self)
             _la = self._input.LA(1)
-            if _la==30:
+            if _la==32:
                 self.state = 210
                 self.match(PythonProjectParser.NOT)
 
@@ -1443,7 +1437,7 @@ class PythonProjectParser ( Parser ):
             self.state = 216
             self._errHandler.sync(self)
             _la = self._input.LA(1)
-            while _la==35:
+            while _la==37:
                 self.state = 213
                 self.match(PythonProjectParser.WS)
                 self.state = 218
@@ -1460,7 +1454,7 @@ class PythonProjectParser ( Parser ):
                     self.state = 223
                     self._errHandler.sync(self)
                     _la = self._input.LA(1)
-                    while _la==35:
+                    while _la==37:
                         self.state = 220
                         self.match(PythonProjectParser.WS)
                         self.state = 225
@@ -1495,7 +1489,7 @@ class PythonProjectParser ( Parser ):
             self.state = 242
             self._errHandler.sync(self)
             _la = self._input.LA(1)
-            if ((_la) & ~0x3f) == 0 and ((1 << _la) & 52613349376) != 0:
+            if ((_la) & ~0x3f) == 0 and ((1 << _la) & 210453397504) != 0:
                 self.state = 241
                 self.conditional()
 
@@ -1561,56 +1555,17 @@ class PythonProjectParser ( Parser ):
             super().__init__(parent, invokingState)
             self.parser = parser
 
-        def WS(self, i:int=None):
+        def SENTENCE(self, i:int=None):
             if i is None:
-                return self.getTokens(PythonProjectParser.WS)
+                return self.getTokens(PythonProjectParser.SENTENCE)
             else:
-                return self.getToken(PythonProjectParser.WS, i)
+                return self.getToken(PythonProjectParser.SENTENCE, i)
 
-        def LETTER(self, i:int=None):
+        def SPECIAL(self, i:int=None):
             if i is None:
-                return self.getTokens(PythonProjectParser.LETTER)
+                return self.getTokens(PythonProjectParser.SPECIAL)
             else:
-                return self.getToken(PythonProjectParser.LETTER, i)
-
-        def NUMBER(self, i:int=None):
-            if i is None:
-                return self.getTokens(PythonProjectParser.NUMBER)
-            else:
-                return self.getToken(PythonProjectParser.NUMBER, i)
-
-        def IF(self, i:int=None):
-            if i is None:
-                return self.getTokens(PythonProjectParser.IF)
-            else:
-                return self.getToken(PythonProjectParser.IF, i)
-
-        def ELSE(self, i:int=None):
-            if i is None:
-                return self.getTokens(PythonProjectParser.ELSE)
-            else:
-                return self.getToken(PythonProjectParser.ELSE, i)
-
-        def arithmetOP(self, i:int=None):
-            if i is None:
-                return self.getTypedRuleContexts(PythonProjectParser.ArithmetOPContext)
-            else:
-                return self.getTypedRuleContext(PythonProjectParser.ArithmetOPContext,i)
-
-
-        def assignOP(self, i:int=None):
-            if i is None:
-                return self.getTypedRuleContexts(PythonProjectParser.AssignOPContext)
-            else:
-                return self.getTypedRuleContext(PythonProjectParser.AssignOPContext,i)
-
-
-        def conditionOP(self, i:int=None):
-            if i is None:
-                return self.getTypedRuleContexts(PythonProjectParser.ConditionOPContext)
-            else:
-                return self.getTypedRuleContext(PythonProjectParser.ConditionOPContext,i)
-
+                return self.getToken(PythonProjectParser.SPECIAL, i)
 
         def getRuleIndex(self):
             return PythonProjectParser.RULE_singleLineComment
@@ -1635,49 +1590,18 @@ class PythonProjectParser ( Parser ):
             self.enterOuterAlt(localctx, 1)
             self.state = 246
             self.match(PythonProjectParser.T__22)
-            self.state = 257
+            self.state = 250
             self._errHandler.sync(self)
             _la = self._input.LA(1)
-            while ((_la) & ~0x3f) == 0 and ((1 << _la) & 47554988030) != 0:
-                self.state = 255
-                self._errHandler.sync(self)
-                token = self._input.LA(1)
-                if token in [35]:
-                    self.state = 247
-                    self.match(PythonProjectParser.WS)
-                    pass
-                elif token in [28]:
-                    self.state = 248
-                    self.match(PythonProjectParser.LETTER)
-                    pass
-                elif token in [25]:
-                    self.state = 249
-                    self.match(PythonProjectParser.NUMBER)
-                    pass
-                elif token in [32]:
-                    self.state = 250
-                    self.match(PythonProjectParser.IF)
-                    pass
-                elif token in [33]:
-                    self.state = 251
-                    self.match(PythonProjectParser.ELSE)
-                    pass
-                elif token in [1, 2, 3, 4, 5]:
-                    self.state = 252
-                    self.arithmetOP()
-                    pass
-                elif token in [6, 7, 8, 9, 10]:
-                    self.state = 253
-                    self.assignOP()
-                    pass
-                elif token in [15, 16, 17, 18, 19, 20, 21, 22]:
-                    self.state = 254
-                    self.conditionOP()
-                    pass
+            while _la==28 or _la==30:
+                self.state = 247
+                _la = self._input.LA(1)
+                if not(_la==28 or _la==30):
+                    self._errHandler.recoverInline(self)
                 else:
-                    raise NoViableAltException(self)
-
-                self.state = 259
+                    self._errHandler.reportMatch(self)
+                    self.consume()
+                self.state = 252
                 self._errHandler.sync(self)
                 _la = self._input.LA(1)
 
@@ -1697,56 +1621,17 @@ class PythonProjectParser ( Parser ):
             super().__init__(parent, invokingState)
             self.parser = parser
 
-        def WS(self, i:int=None):
+        def SENTENCE(self, i:int=None):
             if i is None:
-                return self.getTokens(PythonProjectParser.WS)
+                return self.getTokens(PythonProjectParser.SENTENCE)
             else:
-                return self.getToken(PythonProjectParser.WS, i)
+                return self.getToken(PythonProjectParser.SENTENCE, i)
 
-        def LETTER(self, i:int=None):
+        def SPECIAL(self, i:int=None):
             if i is None:
-                return self.getTokens(PythonProjectParser.LETTER)
+                return self.getTokens(PythonProjectParser.SPECIAL)
             else:
-                return self.getToken(PythonProjectParser.LETTER, i)
-
-        def NUMBER(self, i:int=None):
-            if i is None:
-                return self.getTokens(PythonProjectParser.NUMBER)
-            else:
-                return self.getToken(PythonProjectParser.NUMBER, i)
-
-        def IF(self, i:int=None):
-            if i is None:
-                return self.getTokens(PythonProjectParser.IF)
-            else:
-                return self.getToken(PythonProjectParser.IF, i)
-
-        def ELSE(self, i:int=None):
-            if i is None:
-                return self.getTokens(PythonProjectParser.ELSE)
-            else:
-                return self.getToken(PythonProjectParser.ELSE, i)
-
-        def arithmetOP(self, i:int=None):
-            if i is None:
-                return self.getTypedRuleContexts(PythonProjectParser.ArithmetOPContext)
-            else:
-                return self.getTypedRuleContext(PythonProjectParser.ArithmetOPContext,i)
-
-
-        def assignOP(self, i:int=None):
-            if i is None:
-                return self.getTypedRuleContexts(PythonProjectParser.AssignOPContext)
-            else:
-                return self.getTypedRuleContext(PythonProjectParser.AssignOPContext,i)
-
-
-        def conditionOP(self, i:int=None):
-            if i is None:
-                return self.getTypedRuleContexts(PythonProjectParser.ConditionOPContext)
-            else:
-                return self.getTypedRuleContext(PythonProjectParser.ConditionOPContext,i)
-
+                return self.getToken(PythonProjectParser.SPECIAL, i)
 
         def NEWLINE(self, i:int=None):
             if i is None:
@@ -1775,59 +1660,24 @@ class PythonProjectParser ( Parser ):
         self._la = 0 # Token type
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 260
+            self.state = 253
             self.match(PythonProjectParser.T__23)
-            self.state = 272
+            self.state = 257
             self._errHandler.sync(self)
             _la = self._input.LA(1)
-            while ((_la) & ~0x3f) == 0 and ((1 << _la) & 116274464766) != 0:
-                self.state = 270
-                self._errHandler.sync(self)
-                token = self._input.LA(1)
-                if token in [35]:
-                    self.state = 261
-                    self.match(PythonProjectParser.WS)
-                    pass
-                elif token in [28]:
-                    self.state = 262
-                    self.match(PythonProjectParser.LETTER)
-                    pass
-                elif token in [25]:
-                    self.state = 263
-                    self.match(PythonProjectParser.NUMBER)
-                    pass
-                elif token in [32]:
-                    self.state = 264
-                    self.match(PythonProjectParser.IF)
-                    pass
-                elif token in [33]:
-                    self.state = 265
-                    self.match(PythonProjectParser.ELSE)
-                    pass
-                elif token in [1, 2, 3, 4, 5]:
-                    self.state = 266
-                    self.arithmetOP()
-                    pass
-                elif token in [6, 7, 8, 9, 10]:
-                    self.state = 267
-                    self.assignOP()
-                    pass
-                elif token in [15, 16, 17, 18, 19, 20, 21, 22]:
-                    self.state = 268
-                    self.conditionOP()
-                    pass
-                elif token in [36]:
-                    self.state = 269
-                    self.match(PythonProjectParser.NEWLINE)
-                    pass
+            while ((_la) & ~0x3f) == 0 and ((1 << _la) & 276220084224) != 0:
+                self.state = 254
+                _la = self._input.LA(1)
+                if not(((_la) & ~0x3f) == 0 and ((1 << _la) & 276220084224) != 0):
+                    self._errHandler.recoverInline(self)
                 else:
-                    raise NoViableAltException(self)
-
-                self.state = 274
+                    self._errHandler.reportMatch(self)
+                    self.consume()
+                self.state = 259
                 self._errHandler.sync(self)
                 _la = self._input.LA(1)
 
-            self.state = 275
+            self.state = 260
             self.match(PythonProjectParser.T__23)
         except RecognitionException as re:
             localctx.exception = re
@@ -1872,17 +1722,17 @@ class PythonProjectParser ( Parser ):
         localctx = PythonProjectParser.CommentContext(self, self._ctx, self.state)
         self.enterRule(localctx, 34, self.RULE_comment)
         try:
-            self.state = 279
+            self.state = 264
             self._errHandler.sync(self)
             token = self._input.LA(1)
             if token in [23]:
                 self.enterOuterAlt(localctx, 1)
-                self.state = 277
+                self.state = 262
                 self.singleLineComment()
                 pass
             elif token in [24]:
                 self.enterOuterAlt(localctx, 2)
-                self.state = 278
+                self.state = 263
                 self.multiLineComment()
                 pass
             else:
