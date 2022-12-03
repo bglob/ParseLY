@@ -1,4 +1,4 @@
-# Generated from .\PythonProject.g4 by ANTLR 4.11.1
+# Generated from PythonProject.g4 by ANTLR 4.11.1
 from antlr4 import *
 if __name__ is not None and "." in __name__:
     from .PythonProjectParser import PythonProjectParser
@@ -107,6 +107,24 @@ class PythonProjectListener(ParseTreeListener):
         pass
 
 
+    # Enter a parse tree produced by PythonProjectParser#whileStatement.
+    def enterWhileStatement(self, ctx:PythonProjectParser.WhileStatementContext):
+        pass
+
+    # Exit a parse tree produced by PythonProjectParser#whileStatement.
+    def exitWhileStatement(self, ctx:PythonProjectParser.WhileStatementContext):
+        pass
+
+
+    # Enter a parse tree produced by PythonProjectParser#forStatement.
+    def enterForStatement(self, ctx:PythonProjectParser.ForStatementContext):
+        pass
+
+    # Exit a parse tree produced by PythonProjectParser#forStatement.
+    def exitForStatement(self, ctx:PythonProjectParser.ForStatementContext):
+        pass
+
+
     # Enter a parse tree produced by PythonProjectParser#conditional.
     def enterConditional(self, ctx:PythonProjectParser.ConditionalContext):
         pass
@@ -122,6 +140,15 @@ class PythonProjectListener(ParseTreeListener):
 
     # Exit a parse tree produced by PythonProjectParser#conditionOP.
     def exitConditionOP(self, ctx:PythonProjectParser.ConditionOPContext):
+        pass
+
+
+    # Enter a parse tree produced by PythonProjectParser#comment.
+    def enterComment(self, ctx:PythonProjectParser.CommentContext):
+        pass
+
+    # Exit a parse tree produced by PythonProjectParser#comment.
+    def exitComment(self, ctx:PythonProjectParser.CommentContext):
         pass
 
 
