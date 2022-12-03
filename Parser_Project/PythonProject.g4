@@ -38,7 +38,7 @@ NUMBER: NEGATIVE? DIGIT+;
 DECIMAL: NUMBER '.' NUMBER;
 BOOL: 'True' | 'False';
 LETTER: (LOWER | UPPER);
-STRING: ('"'(LETTER | NUMBER | WS)*'"') | ('\''(LETTER | NUMBER | WS)*'\'');
+STRING: ('"'~[\n\r]*'"') | ('\''~[\n\r]*'\'');
 NOT: 'not';
 TAB: ([\t] | '    ')+;
 

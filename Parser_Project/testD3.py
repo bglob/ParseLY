@@ -25,3 +25,5 @@ for xxx in test4:
 
 for yyy in "banana":
     test5=yyy
+
+test5="1+1=2"
