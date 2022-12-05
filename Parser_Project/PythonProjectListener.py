@@ -170,6 +170,24 @@ class PythonProjectListener(ParseTreeListener):
         pass
 
 
+    # Enter a parse tree produced by PythonProjectParser#functionCall.
+    def enterFunctionCall(self, ctx:PythonProjectParser.FunctionCallContext):
+        pass
+
+    # Exit a parse tree produced by PythonProjectParser#functionCall.
+    def exitFunctionCall(self, ctx:PythonProjectParser.FunctionCallContext):
+        pass
+
+
+    # Enter a parse tree produced by PythonProjectParser#passing.
+    def enterPassing(self, ctx:PythonProjectParser.PassingContext):
+        pass
+
+    # Exit a parse tree produced by PythonProjectParser#passing.
+    def exitPassing(self, ctx:PythonProjectParser.PassingContext):
+        pass
+
+
     # Enter a parse tree produced by PythonProjectParser#comment.
     def enterComment(self, ctx:PythonProjectParser.CommentContext):
         pass

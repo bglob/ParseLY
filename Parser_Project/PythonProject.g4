@@ -5,7 +5,7 @@ grammar PythonProject;
 //Start program
 start: ((expr) (NEWLINE+ | EOF))+;
 
-expr: (arithmetic | concat | assignment | ifStatement | whileStatement | forStatement | comment | function);
+expr: (arithmetic | concat | assignment | ifStatement | whileStatement | forStatement | comment | function | functionCall);
 variable: VARNAME;
 assignValue: (variable | NUMBER | BOOL | DECIMAL | STRING);
 arithmetic: assignValue (WS* arithmetOP WS* assignValue)*;
@@ -22,6 +22,8 @@ conditionOP: ('<' | '<=' | '>' | '>=' | '==' | '!=' | 'and' | 'or');
 block:(NEWLINE TAB expr)+;
 function:'def' WS+ VARNAME '(' WS* parameters* WS*')' WS* ':' block;
 parameters: variable (',' WS* variable)*;
+functionCall: VARNAME '(' WS* passing* WS* ')';
+passing: assignValue (',' WS* assignValue);
 comment: SINGLELINECOMMENT | MULTILINECOMMENT;
 
 
