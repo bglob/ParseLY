@@ -13,12 +13,15 @@ arithmetOP: ('+' | '-' | '*' | '/' | '%');
 concat: variable (WS* '+' WS*) variable;
 assignment: (variable WS* assignOP WS*) (expr | NEWLINE);
 assignOP: ('=' | '+=' | '-=' | '*=' | '/=');
-ifStatement: 'if' WS+ conditional ':' (NEWLINE TAB expr)+ (NEWLINE TAB? elseStatement)?;
-elseStatement: 'else' ':' (NEWLINE TAB expr)+;
-whileStatement: 'while' WS+ conditional ':' (NEWLINE TAB expr)+;
-forStatement: 'for' WS+ variable WS+ 'in' WS+ (variable | STRING) ':' (NEWLINE TAB expr)+;
+ifStatement: 'if' WS+ conditional ':' block (NEWLINE TAB? elseStatement)?;
+elseStatement: 'else' ':' block;
+whileStatement: 'while' WS+ conditional ':' block;
+forStatement: 'for' WS+ variable WS+ 'in' WS+ (variable | STRING) ':' block;
 conditional: NOT? WS* variable (WS* conditionOP WS* assignValue?)* (conditional)?;
 conditionOP: ('<' | '<=' | '>' | '>=' | '==' | '!=' | 'and' | 'or');
+block:(NEWLINE TAB expr)+;
+function:'def' WS+ LETTER(LETTER | NUMBER | '_')* '(' WS* parameters WS*')' WS* ':' block;
+parameters: variable (',' WS* variable)*;
 
 
 
