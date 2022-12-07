@@ -20,10 +20,10 @@ forStatement: 'for' WS+ variable WS+ 'in' WS+ (variable | STRING) ':' block;
 conditional: NOT? WS* variable (WS* conditionOP WS* assignValue?)* (conditional)?;
 conditionOP: ('<' | '<=' | '>' | '>=' | '==' | '!=' | 'and' | 'or');
 block:(NEWLINE TAB expr)+;
-function:'def' WS+ VARNAME '(' WS* parameters* WS*')' WS* ':' block;
+function:'def' WS+ VARNAME '(' WS* parameters* WS*')' WS* ':' block ( NEWLINE TAB 'return' WS+ expr)?;
 parameters: variable (',' WS* variable)*;
 functionCall: VARNAME '(' WS* passing* WS* ')';
-passing: assignValue (',' WS* assignValue);
+passing: assignValue (',' WS* assignValue)*;
 comment: SINGLELINECOMMENT | MULTILINECOMMENT;
 
 

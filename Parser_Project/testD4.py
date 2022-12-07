@@ -9,4 +9,13 @@ def test3(fname,lname):
 
 def test4(size, n):
     for x in n:
-        size-=1
+        result=x-size
+    return result
+
+myfunction()
+test2("Melissa")
+fname="Raju"
+lname="Nichols"
+test3(fname, lname)
+
+result=test4(4, n)
