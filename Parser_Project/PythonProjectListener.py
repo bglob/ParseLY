@@ -143,6 +143,51 @@ class PythonProjectListener(ParseTreeListener):
         pass
 
 
+    # Enter a parse tree produced by PythonProjectParser#block.
+    def enterBlock(self, ctx:PythonProjectParser.BlockContext):
+        pass
+
+    # Exit a parse tree produced by PythonProjectParser#block.
+    def exitBlock(self, ctx:PythonProjectParser.BlockContext):
+        pass
+
+
+    # Enter a parse tree produced by PythonProjectParser#function.
+    def enterFunction(self, ctx:PythonProjectParser.FunctionContext):
+        pass
+
+    # Exit a parse tree produced by PythonProjectParser#function.
+    def exitFunction(self, ctx:PythonProjectParser.FunctionContext):
+        pass
+
+
+    # Enter a parse tree produced by PythonProjectParser#parameters.
+    def enterParameters(self, ctx:PythonProjectParser.ParametersContext):
+        pass
+
+    # Exit a parse tree produced by PythonProjectParser#parameters.
+    def exitParameters(self, ctx:PythonProjectParser.ParametersContext):
+        pass
+
+
+    # Enter a parse tree produced by PythonProjectParser#functionCall.
+    def enterFunctionCall(self, ctx:PythonProjectParser.FunctionCallContext):
+        pass
+
+    # Exit a parse tree produced by PythonProjectParser#functionCall.
+    def exitFunctionCall(self, ctx:PythonProjectParser.FunctionCallContext):
+        pass
+
+
+    # Enter a parse tree produced by PythonProjectParser#passing.
+    def enterPassing(self, ctx:PythonProjectParser.PassingContext):
+        pass
+
+    # Exit a parse tree produced by PythonProjectParser#passing.
+    def exitPassing(self, ctx:PythonProjectParser.PassingContext):
+        pass
+
+
     # Enter a parse tree produced by PythonProjectParser#comment.
     def enterComment(self, ctx:PythonProjectParser.CommentContext):
         pass

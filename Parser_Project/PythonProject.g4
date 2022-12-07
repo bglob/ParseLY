@@ -5,7 +5,7 @@ grammar PythonProject;
 //Start program
 start: ((expr) (NEWLINE+ | EOF))+;
 
-expr: (arithmetic | concat | assignment | ifStatement | whileStatement | forStatement | comment);
+expr: (arithmetic | concat | assignment | ifStatement | whileStatement | forStatement | comment | function | functionCall);
 variable: VARNAME;
 assignValue: (variable | NUMBER | BOOL | DECIMAL | STRING);
 arithmetic: assignValue (WS* arithmetOP WS* assignValue)*;
@@ -13,16 +13,20 @@ arithmetOP: ('+' | '-' | '*' | '/' | '%');
 concat: variable (WS* '+' WS*) variable;
 assignment: (variable WS* assignOP WS*) (expr | NEWLINE);
 assignOP: ('=' | '+=' | '-=' | '*=' | '/=');
-ifStatement: 'if' WS+ conditional ':' (NEWLINE TAB expr)+ (NEWLINE TAB? elseStatement)?;
-elseStatement: 'else' ':' (NEWLINE TAB expr)+;
-whileStatement: 'while' WS+ conditional ':' (NEWLINE TAB expr)+;
-forStatement: 'for' WS+ variable WS+ 'in' WS+ (variable | STRING) ':' (NEWLINE TAB expr)+;
+ifStatement: 'if' WS+ conditional ':' block (NEWLINE TAB? elseStatement)?;
+elseStatement: 'else' ':' block;
+whileStatement: 'while' WS+ conditional ':' block;
+forStatement: 'for' WS+ variable WS+ 'in' WS+ (variable | STRING) ':' block;
 conditional: NOT? WS* variable (WS* conditionOP WS* assignValue?)* (conditional)?;
 conditionOP: ('<' | '<=' | '>' | '>=' | '==' | '!=' | 'and' | 'or');
-
-
-
+block:(NEWLINE TAB expr)+;
+function:'def' WS+ VARNAME '(' WS* parameters* WS*')' WS* ':' block ( NEWLINE TAB 'return' WS+ expr)?;
+parameters: variable (',' WS* variable WS*)*;
+functionCall: VARNAME '(' WS* passing* WS* ')';
+passing: expr (',' WS* expr)*;
 comment: SINGLELINECOMMENT | MULTILINECOMMENT;
+
+
 /*Lexer Rules */
 
 //Added stuff that may/ may not need.
