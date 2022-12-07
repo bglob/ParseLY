@@ -14,3 +14,5 @@ python3 main.py testD1.py
 python3 main.py testD2.py
 # To Test Deliverable3
 python3 main.py testD3.py
+# To Test Deliverable4
+python3 main.py testD4.py
