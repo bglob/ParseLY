@@ -9,7 +9,8 @@ CS 4450 Parser Group Project
 # Project info
 Our group plans on using Python to implement our parser.
 To run make sure download the project. 
-Have python installed on local machine
+Have python installed on local machine.
+The grammar is titled PythonProject.g4
 # To Test Deliverable1
 python3 main.py testD1.py
 # To Test Deliverable2
