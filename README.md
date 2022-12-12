@@ -8,6 +8,8 @@ CS 4450 Parser Group Project
 * Caleb Wilcox
 # Project info
 Our group plans on using Python to implement our parser.
+To run make sure download the project. 
+Have python installed on local machine
 # To Test Deliverable1
 python3 main.py testD1.py
 # To Test Deliverable2
